@@ -1,0 +1,452 @@
+@require './mixins.styl'
+.pk-say
+  position relative
+  top 0
+  width 100%
+  height 100%
+  .pk-say-background
+    position absolute
+    top 0
+    width 100%
+    height 100%
+    background url(../images/pksay-main-back.png)
+    background-size 100%
+  .big-title
+    position absolute
+    right 53px
+    top 18px
+    img
+      width 100px
+      height 100px
+      float right
+    .title-back
+      float left
+      width 330px
+      height 60px
+      line-height 60px
+      margin-top 20px
+      background-color #fff
+      border-radius 32px
+      text-indent 2em
+      margin-right -40px
+      i
+        width 22px
+        height 32px
+        background url(../images/little-black-mic.png)
+        background-size 100%
+        vertical-align middle
+        margin-bottom 10px
+        display inline-block
+      label
+        display inline-block
+        text-align center
+        font-size 36px
+  .border-left
+    border #05e5b9 15px solid
+  .border-right
+    border #4aa8ff 15px solid
+  .avatar-panel
+    position absolute
+    width 283px
+    height 661px
+    background-color rgba(255, 255, 255, 0.4)
+    border-radius 32px
+    .title
+      width 343px
+      height 113px
+      line-height 80px
+      color #fff
+      text-align center
+      font-size 40px
+      font-weight bold
+    .green
+      margin-left -20px
+      margin-top 10px
+      background url(../images/title-back-green.png)
+      background-size 100%
+    .blue
+      margin-left -20px
+      margin-top 10px
+      background url(../images/title-back-blue.png)
+      background-size 100%
+    .avatar-panel-list
+      width 90%
+      margin 0 auto
+      li
+        margin-right 33px
+        margin-bottom 42px
+        background-color #fff
+        display inline-block
+        width 90px
+        height 90px
+        border-radius 50%
+        &:nth-child(even)
+          margin-right 0
+        &:nth-child(odd)
+          margin-left 22px
+        img
+          width 100%
+          height 100%
+          border-radius 50%
+        label
+          display block
+          text-align center
+  .role
+    position absolute
+  .role-left
+    top 0
+    bottom -270px
+    left 381px
+    margin auto
+  .role-right
+    top 0
+    bottom -280px
+    right 381px
+    margin auto
+  .little-girl
+    width 232px
+    height 383px
+    // background url(../images/little-girl.png)
+    // background-size 100%
+  .little-boy
+    width 269px
+    height 389px
+    // background url(../images/little-boy.png)
+    // background-size 100%
+  .dialog-left
+    position absolute
+    top 32%
+    left 30%
+    min-width 400px
+    max-width 400px
+    min-height 70px
+    display block
+    word-wrap break-word
+    background-color #ffffff
+    border-radius 14px
+    opacity 0
+    span.arrow
+      display block
+      position absolute
+      bottom -20px
+      left 200px
+      width 29px
+      height 24px
+      background url(../images/arrow.png) no-repeat
+      background-size 100%
+  .dialog-right
+    position absolute
+    top 28%
+    left 47%
+    min-width 400px
+    max-width 400px
+    min-height 70px
+    display block
+    word-wrap break-word
+    background-color #ffffff
+    border-radius 14px
+    opacity 0
+    span.arrow
+      display block
+      position absolute
+      transform scaleX(-1)
+      bottom -20px
+      left 200px
+      width 29px
+      height 24px
+      background url(../images/arrow.png) bottom no-repeat
+      background-size 100%
+  .dialog .loader__text
+    display block
+    min-height 70px
+    font-size 60px
+    padding-left 24px
+    padding-right 24px
+    padding 22px
+    text-align center
+  .dialog-left label, .dialog-right label
+    display block
+    min-height 70px
+    font-size 60px
+    padding-left 24px
+    padding-right 24px
+    padding 22px
+    text-align center
+    margin-bottom -40px
+    // background linear-gradient(to right, blue, red)
+    // -webkit-background-clip text
+    // color transparent
+  .avatar-left
+    top 0
+    bottom 0
+    left 46px
+    margin auto 
+  .avatar-right
+    top 0
+    bottom 0
+    right 46px
+    margin auto
+  .el-progress--circle
+    position absolute
+    bottom 50px
+    left 15px
+    right 0
+    margin auto
+    width 200px
+    height 200px
+    display flex
+    border-radius 50%
+    .el-progress-circle
+      position absolute
+      top 64px
+      bottom 0
+      left -1px
+      right 0
+      margin auto
+    .el-progress__text
+      display none
+    .el-progress-circle__track
+      stroke #ffd8c2
+  .clock-count-down
+    position absolute
+    display block
+    bottom 20px
+    left 0
+    right 0
+    .back-circle
+      position absolute
+      z-index 0
+      margin auto
+      left 15px
+      right 0
+      bottom 20px
+      width 200px
+      height 200px
+      background-color rgba(255, 255, 255, 0.3)
+      border-radius 50%
+    .voice-waves-flash
+      position absolute
+      left 0
+      right 0
+      margin auto
+      bottom 20px
+      width 593px
+      height 202px
+.pk-say-result
+  position absolute
+  top 0
+  width 100%
+  height 100%
+  background url(../images/pksay-result-back.png) #00501c no-repeat
+  // background url(../images/pksay-main-back.png) no-repeat
+  background-size 100%
+  .pk-win-flash
+    position absolute
+    z-index 2
+    width 1101px
+    height 640px
+  .pk-win-flash-left
+    left -12%
+    top 5%
+  .pk-win-flash-right
+    right 0
+    top 7%
+  .panel
+    position absolute
+    bottom 123px
+    width 550px
+    height 596px
+    border-radius 12px
+    // background linear-gradient(to bottom, #fec7b1, #fabea0)
+    background-color rgba(255, 255, 255, 0.2)
+    .title
+      position relative
+      z-index 9
+      width 514px
+      height 125px
+      margin-left 28px
+      margin-top -23px
+      color #fff
+      font-size 48px
+      text-align center
+      line-height 86px
+    .green
+      background url(../images/big-title-green.png) no-repeat
+      background-size 100%
+    .blue
+      background url(../images/big-title-blue.png) no-repeat
+      background-size 100%
+    .show-score
+      font-family 'microsoft yahei'
+      position relative
+      z-index 9
+      width 486px
+      height 124px
+      margin 0 auto
+      margin-bottom 20px
+      font-size 80px
+      color #fbfe00
+      text-align center
+      line-height 132px
+    .score-green
+      // background url(../images/big-score-green.png)
+      background url(../images/result-title-back.png)
+      background-size 100%
+    .score-blue
+      // background url(../images/big-score-blue.png)
+      background url(../images/result-title-back.png)
+      background-size 100%
+    .avatar-score-list
+      width 90%
+      margin 0 auto
+      li
+        position relative
+        width 90px
+        height 90px
+        display inline-block
+        margin 20px 10px 60px 20px
+        i.stars
+          display block
+          position absolute
+          z-index 9
+          top -45px
+          left -3px
+          margin auto
+          width 98px
+          height 98px
+          line-height 106px
+          text-align center
+          color #000
+          background url(../images/score-stars-yellow.png) no-repeat
+          background-size 100%
+        span, label
+          display block
+          text-align center
+        span
+          font-family 'microsoft yahei'
+          position absolute
+          top -20px
+          left 0
+          right 0
+          // font-size 36px
+          font-weight normal
+          color #fbfe00
+          // -webkit-text-stroke: 1px #F25A56
+          text-shadow 0px 0px 14px #F25A56
+          z-index 9
+        label
+          font-size 32px
+          color #fff
+          width 100%
+          position absolute
+          bottom -40px
+        img
+          width 100%
+          height 100%
+          border-radius 50%
+          position absolute
+          z-index 0
+  .win
+    // background linear-gradient(to bottom, #fde9de, #fcdecf)
+    background-color rgba(255, 255, 0, 0.5)
+  .panel-left
+    left 145px
+  .panel-right
+    right 145px
+  .mid-bonus
+    position absolute
+    .high-light
+      position relative
+      bottom 40px
+      i.star-badage
+        position absolute
+        top -95px
+        z-index 3
+        display block
+        width 70px
+        height 86px
+        background url(../images/star-badage.png)
+        background-size 100%
+      .flash-part
+        position absolute
+        z-index 1
+        top -150px
+        width 231px
+        height 226px
+        // background url(../images/bonus-effect.png)
+        // background-size 100%
+      img
+        position absolute
+        z-index 2
+        width 70px
+        height 70px
+        display block
+        border-radius 50%
+      img.left-mvp-img
+        bottom 0px
+        left 45px
+      img.right-mvp-img
+        bottom 2px
+        left 55px
+      .flash-part-left
+        left -36px
+      .flash-part-right
+        left -26px
+      label
+        position absolute
+        height 20px
+        text-align center
+        z-index 3
+        left 0
+        right 0
+        top 40px
+        bottom 0
+        margin auto
+        display block
+        color #fff
+        font-size 36px
+        text-shadow 0px 0px 14px #834d47
+        font-weight bold
+    .role-shadow
+      position absolute
+      bottom -10px
+      left 0
+      right 0
+      margin auto
+      width 126px
+      height 35px
+      background url(../images/role-shadow.png)
+      background-size 100%
+  .little-girl
+    // width 155px
+    // height 256px
+    width 180px
+    height 260px
+    bottom 400px
+    left 500px
+    margin auto
+    background url(../images/little-girl.png)
+    background-size 100%
+    opacity 0
+  .little-boy
+    width 180px
+    height 260px
+    bottom 138px
+    right 500px
+    margin auto
+    background url(../images/little-boy.png)
+    background-size 100%
+    opacity 0
+#motionPathleft, #motionPathright
+  position absolute
+  z-index -1
+  top 0
+  bottom 0
+  left 0
+  right 0
+  margin auto
+.role-flash
+  position absolute
+  transform rotateY(180deg)
+.role-flash-lina-action, .role-flash-joe-action
+  opacity 0

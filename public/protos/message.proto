@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package messagepb;
+
+message ProfileInfo {
+    int64   identityID  = 1;   //身份ID
+    int32   role        = 2;   //角色 1:学生端 2:主讲端 3:教室端 4:助教端
+    int32   gender      = 3;   //性别
+    string  name        = 4;   //英文名字
+    string  avatar      = 5;   //头像地址
+    bool    modify      = 6;   //是否修改过密码
+    bool    first       = 7;   //是否第一次登陆
+    string  token       = 8;   //jwt token
+}
+
+message WatchLoginRequest {
+    int64   classID     = 1;
+    string  deviceID    = 2;
+}
+
+message WatchLoginResponse {
+    uint32  errcode = 1;
+    string  message = 2;
+    ProfileInfo profile = 3;
+}
+
+message loginInformation {
+    string   token     = 1;
+    string   deviceID  = 2;       
+    int64    classID   = 3;
+    int64    identityID = 4;
+    int32    role      = 5; 
+}
+
+message loginInformationrespone {
+    uint32  errcode = 1;
+    string  message = 2;
+}
+

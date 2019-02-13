@@ -1,0 +1,78 @@
+.gka-wrap {
+    width: 600px;
+    height: 220px;
+}
+
+.audioGka {
+    background-image: url("./img/yinp_00000.png");
+    background-repeat: no-repeat;
+    animation-name: keyframes-audio;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+}
+
+@keyframes keyframes-audio {
+    0% {
+        background-image: url("./img/yinp_00000.png");
+    }
+
+    6.67% {
+        background-image: url("./img/yinp_00002.png");
+    }
+
+    13.33% {
+        background-image: url("./img/yinp_00004.png");
+    }
+
+    20.00% {
+        background-image: url("./img/yinp_00006.png");
+    }
+
+    26.67% {
+        background-image: url("./img/yinp_00008.png");
+    }
+
+    33.33% {
+        background-image: url("./img/yinp_00010.png");
+    }
+
+    40.00% {
+        background-image: url("./img/yinp_00012.png");
+    }
+
+    46.67% {
+        background-image: url("./img/yinp_00014.png");
+    }
+
+    53.33% {
+        background-image: url("./img/yinp_00016.png");
+    }
+
+    60.00% {
+        background-image: url("./img/yinp_00018.png");
+    }
+
+    66.67% {
+        background-image: url("./img/yinp_00020.png");
+    }
+
+    73.33% {
+        background-image: url("./img/yinp_00022.png");
+    }
+
+    80.00% {
+        background-image: url("./img/yinp_00024.png");
+    }
+
+    86.67% {
+        background-image: url("./img/yinp_00026.png");
+    }
+
+    93.33%,
+    100% {
+        background-image: url("./img/yinp_00028.png");
+    }
+}

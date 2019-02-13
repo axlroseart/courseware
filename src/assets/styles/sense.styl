@@ -1,0 +1,344 @@
+@require './mixins.styl'
+.senseBox{
+  height: 100vh;
+  //background: url('../images/zongbangBg.png') no-repeat;
+  //background-size: cover;
+  background: transparent;
+  position relative;
+  overflow hidden
+  display: flex;
+  justify-content: center;
+}
+.senseBox .Person{
+  position:absolute;
+  width 320px;
+  bottom:66px;
+  left: 42%;
+}
+.senseBox .Person img,.clock img{
+  max-width 100%;
+  max-height 100%
+}
+.senseBox .clockBox{
+    position absolute
+    top:25px;
+    z-index: 1
+  }
+.senseBox .clock{
+      width:100px;
+      height:100px;
+      border-radius 50%;
+      overflow hidden;
+      float right;
+      z-index 10;
+      margin-right -50px;
+      z-index 999
+      position: relative;
+    }
+.senseBox .clock .chooseProgress{
+  position: absolute;
+  top: 17px;
+  left: 13px;
+}
+.senseBox .clockText{
+        line-height 60px;
+        background white;
+        float right;
+        padding 0 60px 0 90px;
+        margin-top 20px;
+        font-size 50px;
+        border-radius:30px;
+        box-shadow: 4px 4px 1px 1px #b5acac70;
+        font-weight: 900;
+      }
+.senseBox .animatBox{
+  position absolute;
+  width 100%;
+  top:100px;
+}
+.senseBox .animatLeft,.senseBox .animatRight{
+  width: 470px;
+  height: 380px;
+  position: relative;
+  display: flex;
+  align-items center
+  justify-content center
+  border-radius 47px;
+  background: white;
+}
+.senseBox .animatInner{
+  width: 430px;
+  height: 340px;
+  /* top: 0; */
+  background: white;
+  /* position: absolute; */
+  border-radius: 47px;
+  padding: 20px;
+  text-align center
+}
+.senseBox .animatLeft img,.senseBox .animatRight img{
+            width 470px
+            height 380px;
+          }
+.senseBox .senseTotal .borderTop{
+  position absolute;
+  width: 824px;
+  height: 498px;
+  top: -45px;
+  left: -240px;
+}
+.senseBox .animatLeft{
+            float left;
+            margin-left 161px;
+          }
+.senseBox .animatRight{
+            float right;
+            margin-right 161px;
+          }
+//.senseBox .animatBgWin{
+//  box-shadow: 0px 0px 80px 13px yellow;
+//  background #33d17a
+//}
+//.senseBox .animatBgWin .animatInner{
+//  background #6ef6ab
+//}
+.senseBox .animatBgWin{
+  background #f8dc58
+}
+.fade-enter-active {
+  transition: all 1s;
+}
+.fade-enter /* .fade-leave-active below version 2.1.8 */ {
+  top: -25px;
+}
+.senseBox .senseStar{
+  position: absolute;
+  top: -40px;
+  //top -430px
+  left 14px;
+}
+.senseBox .animatBox p{
+              line-height 30px;
+              text-align center;
+              line-height 80px;
+              font-size: 65px;
+              //color: #ff4e49;
+              //-webkit-text-stroke: 3px #ff4e49;
+              //margin-top: 16px;
+            }
+.senseBox .senseTeam{
+  position absolute;
+  width 100%;
+  bottom:11px;
+  height 550px
+}
+.senseBox .senseTeam1{
+                  position absolute;
+                  width 100%;
+                  top:150px;
+                }
+.senseBox .senseText{
+            width: 340px;
+            height: 230px;
+            background: rgba(255,255,255,0.478);
+            border-radius 40px;
+            text-align center
+            line-height 250px;
+            font-size 80px;
+            top:333px;
+            position: absolute;
+            left:791px;
+            color: #fff;
+            -webkit-text-stroke: 3px #ff4e49;
+          }
+//.senseBox .senseLeft div>img,.senseBox .senseRight div>img{
+//  max-width 100px;
+//  max-height 100%;
+//}
+.senseBox .senseLeft .sahuaObj>img,.senseBox .senseRight .sahuaObj>img{
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 110px;
+}
+//.senseBox .senseLeft div>img{
+//  margin 60px 5px 0 20px;
+//}
+//.senseBox .senseRight div>img{
+//  margin 30px 0px 0 20px;
+//}
+.senseBox .senseLeft,.senseBox .senseRight{
+  width:765px;
+  height:550px;
+  background rgba(255,255,255,0.35)
+  border-radius 60px;
+}
+.senseBox  .borderIn{
+  width:765px;
+  height:550px;
+  position absolute
+}
+.senseBox .senseLeft  .borderOut{
+  width: 857px;
+  top: -49px;
+  left: -30px;
+  height: 647px;
+  position: absolute;
+}
+.senseBox .senseRight  .borderOut{
+  width: 857px;
+  top: -49px;
+  right: -34px;
+  height: 647px;
+  position: absolute;
+}
+.senseBox .senPerson{
+    height:450px;
+    position absolute;
+    top 590px;
+    width: 100%;
+  }
+.senseBox .senPerson div{
+  height:100%;
+}
+.senPerson img{
+  max-width 100%;
+  max-height 100%;
+}
+.senseBox .senPerLeft{
+   position relative
+   float left;
+   margin-left 150px;
+ }
+.senseBox .senPerRight{
+     position relative
+     float right;
+     margin-right 150px;
+}
+.senseBox .senPerLeft object{
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  top: -197px;
+  left: -155px;
+}
+.senseBox .senPerRight object{
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  top: -197px;
+  left: -155px;
+}
+.senseBox .visi{
+  visibility visible
+}
+.senseBox .hidd{
+  visibility hidden
+}
+.senseBox embed{
+  width 100%
+  height 100%
+}
+.senseBox .senPerCenter{
+       position absolute;
+       left: 40%;
+       width: 446px;
+     }
+.senseBox .senseTeam li,.senseBox .senseTeam1 li{
+  margin 10px 0px;
+  padding-right: 2px;
+  width 115px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.senseBox .senseTeam li p,.senseBox .senseTeam1 li p{
+  text-align: center;
+  font-size: 30px;
+  color: #462800;
+  overflow: hidden;
+  //text-overflow: ellipsis;
+  //white-space: nowrap;
+}
+.senseBox .senseLeft ul,.senseBox .senseRight ul,.senseBox .senseLeft ul li,.senseBox .senseRight ul li{
+  float left;
+  position relative
+}
+.senseBox .senseLeft ul,.senseBox .senseRight ul{
+  //max-width 620px;
+  margin-top 30px;
+}
+.senseBox .bodyJudge{
+  max-width 620px!important;
+}
+.senseBox .bodyJudge li {
+  margin-left 5px
+}
+.senseBox .senseLeft ul li img,.senseBox .senseRight ul li img{
+  width:90px;
+  height:90px;
+  border-radius 50%;
+  margin: auto;
+  display: block;
+}
+.senseBox .sensePer{
+    border 4px solid #fff;
+    box-sizing border-box
+  }
+.senseBox .senseLeft{
+  float left;
+  margin-left 15px;
+}
+.senseBox .senseRight{
+    float right;
+    margin-right 15px;
+  }
+.senseBox .senseTeach{
+      float left
+      height: 288px;
+      width: 130px;
+      margin-top: 52px;
+    }
+.senseBox .senseTotal{
+          width 100vw;
+          height:100vh
+        }
+.senseBox .Layer{
+  position: absolute;
+  width: 220px;
+  top: 305px;
+  left: 905px;
+}
+.senseBox  .sahuaObj{
+  position: absolute;
+  width: 960px;
+  height: 1038px;
+  margin-left: -105px;
+  top: -500px;
+  z-index 9
+  }
+.senseBox  .judgeObj{
+    top:-143px
+}
+.senseBox  .shuidi{
+  position absolute
+  width 355px
+  height 433px
+  left 226px
+  top 64px
+}
+.senseBox  .shuidi2{
+  left 1336px
+}
+.senseBox .animatLeft  .paishouTop{
+  position absolute
+  width: 134px;
+  height 136px
+  left 10px
+  top 8px
+}
+.senseBox .animatRight .paituiTop{
+  position absolute
+  width: 134px;
+  height 136px
+  right  10px
+  top 8px
+}

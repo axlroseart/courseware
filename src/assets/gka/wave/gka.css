@@ -1,0 +1,110 @@
+.gka-wrap {
+    width: 438px;
+    height: 500px;
+}
+
+.animation {
+    width: 438px;
+    height: 500px;
+    background-image: url("./img/kelsey挥手0002.png");
+    background-size: 438px 500px;
+    background-repeat: no-repeat;
+    animation-name: keyframes-tinified;
+    animation-duration: 1.35s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+}
+
+@keyframes keyframes-tinified {
+    0% {
+        background-image: url("./img/kelsey挥手0002.png");
+        background-size: contain;
+    }
+
+    4.55% {
+        background-image: url("./img/kelsey挥手0004.png");
+    }
+
+    9.09% {
+        background-image: url("./img/kelsey挥手0006.png");
+    }
+
+    13.64% {
+        background-image: url("./img/kelsey挥手0008.png");
+    }
+
+    18.18% {
+        background-image: url("./img/kelsey挥手0010.png");
+    }
+
+    22.73% {
+        background-image: url("./img/kelsey挥手0012.png");
+    }
+
+    27.27% {
+        background-image: url("./img/kelsey挥手0014.png");
+    }
+
+    31.82% {
+        background-image: url("./img/kelsey挥手0016.png");
+    }
+
+    36.36% {
+        background-image: url("./img/kelsey挥手0018.png");
+    }
+
+    40.91% {
+        background-image: url("./img/kelsey挥手0020.png");
+    }
+
+    45.45% {
+        background-image: url("./img/kelsey挥手0022.png");
+    }
+
+    50.00% {
+        background-image: url("./img/kelsey挥手0024.png");
+    }
+
+    54.55% {
+        background-image: url("./img/kelsey挥手0026.png");
+    }
+
+    59.09% {
+        background-image: url("./img/kelsey挥手0028.png");
+    }
+
+    63.64% {
+        background-image: url("./img/kelsey挥手0030.png");
+    }
+
+    68.18% {
+        background-image: url("./img/kelsey挥手0032.png");
+    }
+
+    72.73% {
+        background-image: url("./img/kelsey挥手0034.png");
+    }
+
+    77.27% {
+        background-image: url("./img/kelsey挥手0036.png");
+    }
+
+    81.82% {
+        background-image: url("./img/kelsey挥手0038.png");
+    }
+
+    86.36% {
+        background-image: url("./img/kelsey挥手0040.png");
+    }
+
+    90.91% {
+        background-image: url("./img/kelsey挥手0042.png");
+    }
+
+    95.45%,
+    100% {
+        background-image: url("./img/kelsey挥手0044.png");
+    }
+}

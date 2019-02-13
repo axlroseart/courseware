@@ -1,0 +1,232 @@
+@require './mixins.styl'
+.karaok-index
+  width 100%
+  height 100%
+  background url(../images/karaok-back.png) no-repeat
+  background-size 100%
+  overflow hidden
+  .cover
+    position absolute
+    z-index 7
+    width 100%
+    height 100%
+    // background url(../images/karaok-cover.png)
+    // background-size 100%
+    .karaok-back-flash, .karaok-result-flash
+      position absolute
+    .karaok-back-flash
+      z-index 9
+    .karaok-result-flash
+      z-index 10
+      opacity 0
+  .fans
+    position absolute
+    z-index 0
+    bottom 0
+    width 100%
+    height 306px
+    background url(../images/karaok-fans.png)
+    background-size 100%
+  .title
+    width 1140px
+    max-width 1140px
+    position absolute
+    z-index 9
+    left 0
+    right 0
+    top -250px
+    margin auto
+  .title-leap, .title-star
+    font-size 170px
+    color #feed01
+    display block
+    // -webkit-text-stroke 3px #fff
+    // text-shadow 0px 0px 90px #fff000
+  .title-leap
+    float left
+    width 504px
+    height 322px
+    background url(../images/karaok-title-leap.png) no-repeat
+    background-size 100%
+  .title-star
+    float right
+    width 497px
+    height 338px
+    background url(../images/karaok-title-star.png) no-repeat
+    background-size 100%
+  .students-area
+    position relative
+    width 1400px
+    height 576px
+    margin auto
+    left 0
+    right 0
+    top 400px
+    .student-body
+      position absolute
+      height 268px
+      width 200px
+      .avatar-wrap
+        position absolute
+        z-index 7
+        top 0
+        left 0
+        right 0
+        margin auto
+        width 159px
+        height 159px
+        img
+          width 126px
+          height 126px
+          border-radius 50%
+        .star
+          position absolute
+          top -70px
+          left 0
+          right 0
+          margin auto
+          width 128px
+          height 146px
+          text-indent 0.7em
+          line-height 126px
+          font-size 50px
+          letter-spacing -5px
+          color #fffefe
+          // -webkit-text-stroke 2px #e18900
+          text-shadow 0 0 2px #e18900, 0px 0px 4px #e18900, 0px 0px 6px #e18900, 0px 0px 8px #e18900, 0px 0px 10px #e18900,
+          0 0 2px #e18900, 0px 0px 4px #e18900, 0px 0px 6px #e18900, 0px 0px 8px #e18900, 0px 0px 10px #e18900,
+          0 0 2px #e18900, 0px 0px 4px #e18900, 0px 0px 6px #e18900, 0px 0px 8px #e18900, 0px 0px 10px #e18900
+          background url(../images/rank-star.png) no-repeat
+          background-size 100%
+      .body
+        position absolute
+        z-index 0
+        top 141px
+        left 0
+        right 0
+        margin auto
+    .student-body:nth-child(1)
+      top 0
+      left 60px
+    .student-body:nth-child(2)
+      top -60px
+      left 230px
+    .student-body:nth-child(3)
+      top -80px
+      left 420px
+    .student-body:nth-child(4)
+      top -85px
+      left 600px
+    .student-body:nth-child(5)
+      top -65px
+      left 790px
+    .student-body:nth-child(6)
+      top -40px
+      left 970px
+    .student-body:nth-child(7)
+      top 0
+      left 1140px
+    .student-body:nth-child(8)
+      bottom 130px
+      left -20px
+    .student-body:nth-child(9)
+      bottom 100px
+      left 190px
+    .student-body:nth-child(10)
+      bottom 80px
+      left 400px
+    .student-body:nth-child(11)
+      bottom 80px
+      left 600px
+    .student-body:nth-child(12)
+      bottom 80px
+      left 800px
+    .student-body:nth-child(13)
+      bottom 95px
+      left 1010px
+    .student-body:nth-child(14)
+      bottom 110px
+      left 1200px
+    .boy
+      .avatar-wrap img
+        border #78bcf4 16px solid
+      .body
+        width 145px
+        height 116px
+        background url(../images/karaok-body-boy.png) no-repeat
+        background-size 100%
+    .girl
+      .avatar-wrap img
+        border #ff7493 16px solid
+      .body
+        width 158px
+        height 134px
+        background url(../images/karaok-body-girl.png) no-repeat
+        background-size 100%
+  .karaok-lyrics
+    position absolute
+    width 100%
+    height 228px
+    z-index 9
+    bottom 0
+    .dot
+      position absolute
+      left 50px
+      // top -70px
+      li
+        display inline-block
+        width 67px
+        height 67px
+        margin-right 35px
+        background url(../images/karaok-dot.png) no-repeat
+        background-size 100%
+    .content
+      height 100%
+      font-size 70px
+      color #fff
+      -webkit-font-smoothing antialiased
+      // -webkit-text-stroke 2px #7300e8
+      // text-shadow 0px 0px 32px #7300e8
+      .loader__text--preload
+        text-shadow 0 0 2px #7300e8, 0px 0px 4px #7300e8, 0px 0px 6px #7300e8, 0px 0px 8px #7300e8, 0px 0px 10px #7300e8,
+        0 0 2px #7300e8, 0px 0px 4px #7300e8, 0px 0px 6px #7300e8, 0px 0px 8px #7300e8, 0px 0px 10px #7300e8,
+        0 0 2px #7300e8, 0px 0px 4px #7300e8, 0px 0px 6px #7300e8, 0px 0px 8px #7300e8, 0px 0px 10px #7300e8,
+        0 0 2px #7300e8, 0px 0px 4px #7300e8, 0px 0px 6px #7300e8, 0px 0px 8px #7300e8, 0px 0px 10px #7300e8,
+        0 0 2px #7300e8, 0px 0px 4px #7300e8, 0px 0px 6px #7300e8, 0px 0px 8px #7300e8, 0px 0px 10px #7300e8,
+        0 0 2px #7300e8, 0px 0px 4px #7300e8, 0px 0px 6px #7300e8, 0px 0px 8px #7300e8, 0px 0px 10px #7300e8,
+        0 0 2px #7300e8, 0px 0px 4px #7300e8, 0px 0px 6px #7300e8, 0px 0px 8px #7300e8, 0px 0px 10px #7300e8,
+        0 0 2px #7300e8, 0px 0px 4px #7300e8, 0px 0px 6px #7300e8, 0px 0px 8px #7300e8, 0px 0px 10px #7300e8,
+        0 0 2px #7300e8, 0px 0px 4px #7300e8, 0px 0px 6px #7300e8, 0px 0px 8px #7300e8, 0px 0px 10px #7300e8,
+        0 0 2px #7300e8, 0px 0px 4px #7300e8, 0px 0px 6px #7300e8, 0px 0px 8px #7300e8, 0px 0px 10px #7300e8,
+        0 0 2px #7300e8, 0px 0px 4px #7300e8, 0px 0px 6px #7300e8, 0px 0px 8px #7300e8, 0px 0px 10px #7300e8
+      .top
+        position absolute
+        top 0
+        left 350px
+        text-overflow ellipsis
+      .bottom
+        position absolute
+        bottom 38px
+        right 105px
+  .karaok-bonus-bbt, .karaok-bonus-mic, .karaok-bonus-rose
+    position absolute
+    z-index 99
+    bottom -200px
+  .karaok-bonus-bbt
+    left 300px
+    width 162px
+    height 218px
+    background url(../images/karaok-bonus-bbt.png) no-repeat
+    background-size 100%
+  .karaok-bonus-mic
+    left 850px
+    width 181px
+    height 173px
+    background url(../images/karaok-bonus-mic.png) no-repeat
+    background-size 100%
+  .karaok-bonus-rose
+    left 1380px
+    width 164px
+    height 198px
+    background url(../images/karaok-bonus-rose.png) no-repeat
+    background-size 100%

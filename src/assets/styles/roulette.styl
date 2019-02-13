@@ -1,0 +1,447 @@
+@require './mixins.styl'
+.roulette-index
+  position relative
+  width 100%
+  height 100%
+  background url(../images/roulette-back.png) center no-repeat
+  background-size 100%
+  // padding-top 1px
+  .game-area
+    position absolute
+    height 1035px
+    top 20px
+    bottom 0
+    left 80px
+    right 0
+    margin auto
+    text-align center
+    display block
+    .main
+      position relative
+      display inline-block
+      width 1007px
+      height 981px
+      background url(../images/roulette-main-back.png) no-repeat
+      background-size 100%
+      border-radius 50%
+      box-shadow 2px 2px 38px #f4677e, 2px 2px 38px #f4677e
+      .cover
+        width 100%
+        height 100%
+        position absolute
+        left 10px
+        top 10px
+      .children-imgs
+        position absolute
+        width 100%
+        height 100%
+        top 12px
+        bottom 0
+        left 5px
+        right 0
+        // bottom 430px
+        // right -70px
+        margin auto
+        z-index 99
+        transform rotate(14deg)
+        .avatar-wrap
+          position absolute
+          width 100%
+          height 100%
+          bottom 430px
+          right 35px
+          span
+            display block
+          i.halo
+            display block
+            width 99%
+            height 99%
+            border-radius 50%
+            position absolute
+            z-index 9
+            top -7px
+            left -7px
+            border #e74e32 8px solid
+          i.hilit-area
+            display block
+            width 99%
+            height 99%
+            border-radius 50%
+            position absolute
+            z-index 8
+            top 0
+            left 0
+            box-shadow 0px 0px 24px #fffc00, 0px 0px 24px #fffc00, 0px 0px 24px #fffc00, 0px 0px 24px #fffc00
+          li
+            position absolute
+            width 130px
+            height 130px
+            border-radius 50%
+            transform rotate(-14deg)
+            &:nth-child(1)
+              bottom -10px
+              right 748px
+              span
+                width 265px
+                height 211px
+                margin-top -70px
+                margin-left -87px
+                transform rotate(0.5deg)
+                background url(../images/high-light-back-12.png) no-repeat
+                background-size 100%
+            &:nth-child(2)
+              bottom 140.822px
+              right 714.032px
+              span
+                width 287px
+                height 275px
+                margin-top -100px
+                margin-left -105px
+                transform rotate(1deg)
+                background url(../images/high-light-back-13.png) no-repeat
+                background-size 100%
+            &:nth-child(3)
+              bottom 268.168px
+              right 625.857px
+              span
+                width 250px
+                height 282px
+                margin-top -90px
+                margin-left -85px
+                transform rotate(1deg)
+                background url(../images/high-light-back-14.png) no-repeat
+                background-size 100%
+            &:nth-child(4)
+              bottom 326.4px
+              right 490.325px
+              span
+                width 212px
+                height 248px
+                margin-top -75px
+                margin-left -45px
+                background url(../images/high-light-back-1.png) no-repeat
+                background-size 100%
+            &:nth-child(5)
+              bottom 326.4px
+              right 333.675px
+              span
+                width 250px
+                height 283px
+                margin-top -100px
+                margin-left -32px
+                background url(../images/high-light-back-2.png) no-repeat
+                background-size 100%
+            &:nth-child(6)
+              bottom 265.168px
+              right 201.143px
+              span
+                width 287px
+                height 275px
+                margin-top -101px
+                margin-left -52px
+                transform rotate(-0.5deg)
+                background url(../images/high-light-back-3.png) no-repeat
+                background-size 100%
+            &:nth-child(7)
+              bottom 155.822px
+              right 95.9677px
+              span
+                width 267px
+                height 212px
+                margin-top -70px
+                margin-left -62px
+                background url(../images/high-light-back-4.png) no-repeat
+                background-size 100%
+            &:nth-child(8)
+              bottom 14px
+              right 62px
+              span
+                width 266px
+                height 212px
+                margin-top -15px
+                margin-left -58px
+                transform rotate(0deg)
+                background url(../images/high-light-back-5.png) no-repeat
+                background-size 100%
+            &:nth-child(9)
+              bottom -140.822px
+              right 80.9677px
+              span
+                width 286px
+                height 275px
+                margin-top -60px
+                margin-left -70px
+                transform rotate(1deg)
+                background url(../images/high-light-back-6.png) no-repeat
+                background-size 100%
+            &:nth-child(10)
+              bottom -268.168px
+              right 175.143px
+              span
+                width 250px
+                height 284px
+                margin-top -76px
+                margin-left -46px
+                transform rotate(0deg)
+                background url(../images/high-light-back-7.png) no-repeat
+                background-size 100%
+            &:nth-child(11)
+              bottom -334.4px
+              right 320.675px
+              span
+                width 212px
+                height 249px
+                margin-top -56px
+                margin-left -45px
+                transform rotate(0deg)
+                background url(../images/high-light-back-8.png) no-repeat
+                background-size 100%
+            &:nth-child(12)
+              bottom -334.4px
+              right 481.325px
+              span
+                width 249px
+                height 284px
+                margin-top -66px
+                margin-left -86px
+                transform rotate(0.5deg)
+                background url(../images/high-light-back-9.png) no-repeat
+                background-size 100%
+            &:nth-child(13)
+              bottom -268.168px
+              right 618.857px
+              span
+                width 287px
+                height 275px
+                margin-top -52px
+                margin-left -102px
+                transform rotate(0deg)
+                background url(../images/high-light-back-10.png) no-repeat
+                background-size 100%
+            &:nth-child(14)
+              bottom -148.822px
+              right 714.032px
+              span
+                width 267px
+                height 211px
+                margin-top -16px
+                margin-left -86px
+                transform rotate(0.8deg)
+                background url(../images/high-light-back-11.png) no-repeat
+                background-size 100%
+            img
+              position absolute
+              z-index 7
+              left 0
+              width 100%
+              height 100%
+              border-radius 50%
+      .high-light
+        position absolute
+        top 18px
+        left 0px
+        right -75px
+        margin auto
+        width 218px
+        height 251px
+        z-index 1
+        background url(../images/roulette-hilite.png) center no-repeat
+        background-size 100%
+      .bbt
+        position absolute
+        z-index 7
+        top 0
+        bottom 95px
+        left 0
+        right 0
+        margin auto
+        width 265px
+        height 356px
+        background url(../images/roulette-bbt.png) center no-repeat
+        background-size 100%
+        transform-origin 0.69rem 1.17rem 0
+        transform rotate(0deg)
+      .pan
+        position absolute
+        z-index 2
+        top 0
+        bottom 0
+        left 0
+        right 0
+        margin auto
+        width 461px
+        height 457px
+        background url(../images/roulette-pan.png)
+        background-size 100%
+    .board
+      position relative
+      display inline-block
+      top 60px
+      width 743px
+      height 985px
+      background url(../images/roulette-board.png) center no-repeat
+      background-size 100%
+      .default-word-area, .show-word-area
+        position absolute
+        display block
+        left 0
+        right 0
+        top 340px
+        bottom 0
+        margin auto
+        img
+          border-radius 6px
+      .avatar
+        position relative
+        left 0
+        top -25px
+        bottom 0
+        right 0
+        width 139px
+        height 139px
+        background #fff
+        border-radius 50%
+        margin 180px auto
+        margin-bottom 10px
+        border #e9573f 16px solid
+        display block
+        i.update-score
+          position absolute
+          top -50px
+          left 0
+          right 0
+          margin auto
+          opacity 0
+          display block
+          font-size 58px
+          width 106px
+          z-index 9
+          text-align center
+          color #fff
+          text-align center
+          text-shadow 0 0 2px #e18900, 0px 0px 4px #e18900, 0px 0px 6px #e18900, 0px 0px 8px #e18900, 0px 0px 10px #e18900,
+            0 0 2px #e18900, 0px 0px 4px #e18900, 0px 0px 6px #e18900, 0px 0px 8px #e18900, 0px 0px 10px #e18900,
+            0 0 2px #e18900, 0px 0px 4px #e18900, 0px 0px 6px #e18900, 0px 0px 8px #e18900, 0px 0px 10px #e18900
+        .redhead
+          position absolute
+          top 120px
+          left -58px
+          width 241px
+          height 62px
+          background url(../images/roulette-award-name-back.png) center no-repeat
+          background-size 100%
+          font-size 38px
+          font-weight bold
+          color #fcff1c
+        .bonus-star
+          position absolute
+          top -80px
+          left 0
+          right 0
+          margin auto
+          width 109px
+          height 124px
+          line-height 124px
+          color #fff
+          font-size 32px
+          background url(../images/grab-stars.png)
+          background-size 100%
+      img.default-words-img
+        width 442px
+        height 523px
+        margin-top 20px
+      img.real-words-img
+        width 192px
+        height 220px
+        margin-top 40px
+      img.pick-avatar-img
+        position absolute
+      img
+        width 100%
+        height 100%
+        border-radius 50%
+        display block
+        margin 0 auto
+      h1
+        display block
+        width 80%
+        font-size 80px
+        color #ff4e49
+        margin 0 auto
+        overflow hidden
+        text-overflow ellipsis
+        white-space nowrap
+        // -webkit-text-stroke 1px #ff7023
+      .el-progress--circle
+        position absolute
+        bottom 17px
+        left 10px
+        right 0
+        margin auto
+        width 120px
+        height 120px
+        display flex
+        background-size 50%
+        .el-progress__text
+          display none
+        .el-progress-circle__track
+          stroke #ffd8c2
+      .clock-count-down
+        position absolute
+        display block
+        bottom 130px
+        left -30px
+        right 0
+      .show-score
+        position absolute
+        display block
+        width 332px
+        height 248px
+        left 0
+        right 0
+        bottom 90px
+        margin auto
+        .canvas-a-star
+          left 0
+        span
+          font-family 'microsoft yahei'
+          display block
+          position absolute
+          left 0
+          right 0
+          bottom 65px
+          font-size 98px
+          color #ff4e49
+        .roulette-score-star
+          display block
+          margin 0 auto
+        i.star-one
+          width 200px
+          height 255px
+          background url(../images/rou-star-1.png) no-repeat
+          background-size 100%
+          margin-top -30px
+        i.star-two
+          width 419px
+          height 262px
+          background url(../images/rou-star-2.png) no-repeat
+          background-size 100%
+          margin-left -68px
+          margin-top -30px
+        i.star-three
+          width 513px
+          height 286px
+          background url(../images/rou-star-3.png) no-repeat
+          background-size 100%
+          margin-left -105px
+          margin-top -40px
+        i.star-none
+          width 174px
+          height 174px
+          background url(../images/star-none.png) no-repeat
+          background-size 100%
+          margin-top 40px
+  .pickedHighLight
+    border #e74e32 8px solid
+    top -13px
+    // box-shadow 0px 0px 24px #e74e32, 0px 0px 24px #e74e32, 0px 0px 24px #e74e32, 0px 0px 24px #e74e32

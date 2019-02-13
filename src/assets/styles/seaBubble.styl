@@ -1,0 +1,362 @@
+@require './mixins.styl'
+.do-and-say
+  position relative
+  width 100%
+  height 100%
+  padding-top 1px
+  background url(../images/seabubble-back.jpg)
+  background-size 100%
+  .seabubble-back-flash
+    position absolute
+    top 0
+    z-index -1
+  .title-area
+    display table
+    padding-top 1px
+    height 200px
+    text-align center
+    background-color #fffff6
+    border-radius 132px
+    // background linear-gradient(to bottom, #fffff6 , #bcecec)
+    box-shadow 10px 20px 40px rgba(0, 0, 0, 0.3)
+    // background url(../images/bubble-title-back.png) no-repeat
+    // background-size 100%
+    margin 31px auto
+    color #333
+    h1
+      margin auto
+      font-family Sassoon
+      font-size 88px
+      float right
+      max-width 600px
+      overflow: hidden
+      text-overflow: ellipsis
+      white-space: nowrap
+      margin-top 50px
+      margin-right 50px
+      // margin-left 70px
+      padding-left 15px
+    .el-progress--circle
+      width 137px
+      height 192px
+      float left
+      margin-top 0px
+      margin-left 40px
+      background url(../images/rabbit-ear.png) no-repeat center
+      background-size 100%
+      .el-progress__text
+        display none
+      .el-progress-circle__track
+        stroke #ffd8c2
+    .rabbit-count-down-wrap
+      position relative
+      width 137px
+      height 192px
+      float left
+      margin-top 0px
+      margin-left 40px
+      background url(../images/rabbit-ear.png) no-repeat center
+      background-size 100%
+    .active-img
+      position relative
+      display inline-block
+      margin 0 auto
+      width 114px
+      height 100%
+      // margin-top 30px
+      margin-left 50px
+      margin-right 50px
+      img
+        position absolute
+        top 0
+        bottom 0
+        left 0
+        right 0
+        margin auto
+        width 100%
+        display block
+  .bubble
+    position absolute
+    display inline-block
+    z-index 9
+    width 100px
+    height 100px
+    background-size 100%
+    .normal-plus-part
+      position relative
+      // position absolute
+      // left 10%
+      // top 10%
+      img
+        position absolute
+        z-index 40
+        display block
+      img.mvp-avatar-star-big
+        z-index 40
+        left -30px
+        top -30px
+        width 72px
+        height 72px
+        -webkit-animation animal 4s infinite linear
+        -webkit-transform-origin center center
+        -ms-transform-origin center center
+      img.mvp-avatar-star-small
+        z-index 40
+        left -38px
+        top 20px
+        width 61px
+        height 60px
+        -webkit-animation animal 3s infinite linear
+        -webkit-transform-origin center center
+        -ms-transform-origin center center
+    .stars-part-3
+      position absolute
+      width 240px
+      height 80px
+      z-index 9
+      top -65%
+      left -67%
+      li
+        position absolute
+        width 92px
+        height 94px
+        background url(../images/horn-rageStar.png)
+        background-size 100%
+        display inline-block
+        &:nth-child(1)
+          top -30%
+          left 0
+        &:nth-child(2)
+          top -60%
+          left 31%
+        &:nth-child(3)
+          top -30%
+          right 0
+    .stars-part-2
+      position absolute
+      width 188px
+      height 80px
+      z-index 9
+      top -95%
+      left -30%
+      li
+        width 92px
+        height 94px
+        background url(../images/horn-rageStar.png)
+        background-size 100%
+        display inline-block
+        margin-right -15px
+    .stars-part-1
+      position absolute
+      width 95px
+      height 80px
+      z-index 9
+      top -95%
+      left 5%
+      li
+        width 92px
+        height 94px
+        background url(../images/horn-rageStar.png)
+        background-size 100%
+        display inline-block
+    .mid-award-part
+      position absolute
+      top -20%
+      left -48%
+      width 209px
+      height 173px
+      img.mid-award-theaf
+        width 100%
+        height 100%
+    .mvp-part
+      // position absolute
+      img
+        position absolute
+      .halo-circle
+        background-color rgba(93, 138, 191, 0)
+        border-radius 50% 50%
+        opacity 0
+      img.mvp-avatar-halo
+        z-index 1
+        top -140px
+        left -135px
+        width 378px
+        height 378px
+      img.mvp-avatar-back
+        z-index 2
+        top -74px
+        left -73px
+        width 244px
+        height 244px
+        -webkit-animation animal 3s infinite linear
+        -webkit-transform-origin center center
+        -ms-transform-origin center center
+      img.mvp-avatar-head
+        z-index 20
+        top -110px
+        left 20px
+        width 89px
+        height 67px
+      img.mvp-avatar-star-big
+        z-index 40
+        left -50px
+        top -95px
+        width 72px
+        height 72px
+        -webkit-animation animal 4s infinite linear
+        -webkit-transform-origin center center
+        -ms-transform-origin center center
+      img.mvp-avatar-star-small
+        z-index 40
+        left -80px
+        top -55px
+        width 61px
+        height 60px
+        -webkit-animation animal 3s infinite linear
+        -webkit-transform-origin center center
+        -ms-transform-origin center center
+    .bubbleBorder
+      border-radius 50%
+      box-shadow 0 0 8px rgba(246, 247, 187, 0.5), 0px 0px 14px rgba(246, 247, 187, 0.5), 0px 0px 20px rgba(246, 247, 187, 0.5), 0px 0px 28px rgba(246, 247, 187, 0.5), 0px 0px 30px rgba(246, 247, 187, 0.5)
+    .scale-area
+      // transform scale(3)
+      width 100%
+      height 100%
+      position absolute
+      z-index 8
+      img
+        position absolute
+        top 0
+        bottom 0
+        left 0
+        right 0
+        margin auto
+        display block
+        border-radius 50%
+        transition box-shadow 0.3s ease-in-out
+        transform scale(1.3)
+      img.bubble-img
+        width 100%
+        height 100%
+        z-index 2
+      img.students-avatar
+        width 0
+        height 0
+        z-index 1
+    .bonus
+      position absolute
+      // z-index -1
+      display block
+      width 60%
+    span
+      position absolute
+      left -30px
+      color #fff
+    // .bonus-bottom
+    //   bottom -40px
+    //   left 20px
+    // .bonus-top
+    //   top -55px
+    //   right 10px
+    span
+      display block
+      position absolute
+      top 0
+      bottom 0
+      left 0
+      right 0
+      margin auto
+      text-align center
+      color #fff
+      // transform scale(0.1)
+      // opacity 0
+      // transition all 1s ease-in-out
+    img.high-light
+      box-shadow 0 0 8px rgba(246, 247, 187, 0.5), 0px 0px 14px rgba(246, 247, 187, 0.5), 0px 0px 20px rgba(246, 247, 187, 0.5), 0px 0px 28px rgba(246, 247, 187, 0.5), 0px 0px 30px rgba(246, 247, 187, 0.5)
+    .avatar img
+      width 65%
+      height 65%
+      border none
+      display block
+      position absolute
+      top 0
+      bottom 0
+      left 0
+      right 0
+      margin auto
+      // transform scale(0.65)
+    .fishes
+      position absolute
+      z-index -1
+      transform scale(0.3)
+      opacity 0
+    .fish-s
+      left 40px
+      bottom -20px
+      width 53px
+      height 53px
+      background url(../images/fishes-s.png)
+      background-size 100%
+    .fish-b
+      left 30px
+      bottom -38px
+      width 83px
+      height 82px
+      background url(../images/fishes-b.png)
+      background-size 100%
+  .bubble-area
+    position absolute
+    left 0
+    right 0
+    bottom 0
+    width 1920px
+    height 1080px
+    margin auto
+    .bubble
+      &:nth-child(1)
+        left 908px
+        top 588px
+      &:nth-child(2)
+        left 571px
+        top 725px
+      &:nth-child(3)
+        left 1347px
+        top 607px
+      &:nth-child(4)
+        left 249px
+        top 574px
+      &:nth-child(5)
+        left 1200px
+        top 804px
+      &:nth-child(6)
+        left 869px
+        top 868px
+      &:nth-child(7)
+        left 1674px
+        top 630px
+      &:nth-child(8)
+        left 481px
+        top 402px
+      &:nth-child(9)
+        left 195px
+        top 844px
+      &:nth-child(10)
+        left 1577px
+        top 858px
+      &:nth-child(11)
+        left 792px
+        top 307px
+      &:nth-child(12)
+        left 1206px
+        top 373px
+      &:nth-child(13)
+        left 1579px
+        top 352px
+      &:nth-child(14)
+        left 132px
+        top 310px
+#horn_game_canvas
+  width 278px
+  position absolute
+  top -40px
+  left -25px

@@ -1,0 +1,113 @@
+@require './mixins.styl'
+.small-horn-box
+  position relative
+  width 100%
+  height 100%
+  padding-top 1px
+  .small-horn-content
+    width 100%
+    height 409px
+    position absolute
+    bottom 0px
+    .bottom-bg
+      width 100%
+      height 74px
+      position absolute
+      bottom 0px
+      background url('../images/smallhornBg.png') no-repeat
+    .middle-horn-content
+      width 379px
+      height 409px
+      position absolute
+      bottom 0px
+      right 0px
+      left 0px
+      margin auto
+      #horn_game_canvas
+        width 379px
+        height 409px
+        position absolute
+        left 0px
+        top 0px
+    .student-box
+      position absolute
+      bottom 8px
+      width 90px
+      height 340px
+      .students-avatar-box-say
+        border 4px solid #EA7330
+      .students-avatar-box-normal
+        border 4px solid #fff
+      .students-avatar-box
+        width 80px
+        height 80px
+        position absolute
+        bottom 20px
+        border-radius 50%
+        .students-avatar-light-border
+          width 88px
+          height 88px
+          position absolute
+          top -8px
+          left -8px
+          border 4px solid #fff
+          border-radius 50%
+        .student-avatar
+          position absolute
+          top 0px
+          left 0px
+          right 0px
+          bottom 0px
+          border-radius 50%
+          border 5px solid #fff
+        .student-avatar-light
+          position absolute
+          width 137px
+          height 137px
+          top -25px
+          left -25px
+          background-image url(../images/avatar-light.png) no-repeat
+      .student-rage-box
+        width 40px
+        height 140px
+        position absolute
+        left 24%
+        bottom 120px
+        border-radius 25px
+        // overflow hidden
+        .student-rage-content
+          width 100%
+          position absolute
+          left 0px
+          bottom 0px
+          background #fff
+          border 2px solid #AA5A22
+          // box-shadow 2px 2px 1px rgba(0, 0, 0, 0.15)
+          box-shadow: 0px -4px 1px 0px #fff,   /*上边阴影  红色*/
+                      -4px 0px 1px 0px #fff,   /*左边阴影  绿色*/
+                      4px 0px 1px 0px #fff,    /*右边阴影  蓝色*/
+                      0px 4px 1px 0px #fff;    /*下边阴影  黄色*/
+          border-radius 25px
+          opacity 0.9
+        .student-rage-star
+          position absolute
+          top -60px
+          left -4px
+          width 50px
+          height 50px
+          background url(../images/newhorn-rageStar.png) no-repeat
+          background-size 100%
+      .student-avatar-star
+        width 100%
+        height 100%
+        position absolute
+        left 0px
+        top -40px
+
+      .student-score-star
+          position absolute
+          top 60px
+          left -7px
+          width 102px
+          height 41px
+          z-index 1000

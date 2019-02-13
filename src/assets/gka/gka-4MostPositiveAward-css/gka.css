@@ -1,0 +1,219 @@
+.gka-wrap {
+    width: 1920px;
+    height: 1080px;
+}
+
+.gka4MostPositiveAward {
+    background-image: url("./img/haha01jpg00.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: keyframes-4MostPositiveAward;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+}
+
+@keyframes keyframes-4MostPositiveAward {
+    0% {
+        background-image: url("./img/haha01jpg00.jpg");
+    }
+
+    2.00% {
+        background-image: url("./img/haha01jpg01.jpg");
+    }
+
+    4.00% {
+        background-image: url("./img/haha01jpg02.jpg");
+    }
+
+    6.00% {
+        background-image: url("./img/haha01jpg03.jpg");
+    }
+
+    8.00% {
+        background-image: url("./img/haha01jpg04.jpg");
+    }
+
+    10.00% {
+        background-image: url("./img/haha01jpg05.jpg");
+    }
+
+    12.00% {
+        background-image: url("./img/haha01jpg06.jpg");
+    }
+
+    14.00% {
+        background-image: url("./img/haha01jpg07.jpg");
+    }
+
+    16.00% {
+        background-image: url("./img/haha01jpg08.jpg");
+    }
+
+    18.00% {
+        background-image: url("./img/haha01jpg09.jpg");
+    }
+
+    20.00% {
+        background-image: url("./img/haha01jpg10.jpg");
+    }
+
+    22.00% {
+        background-image: url("./img/haha01jpg11.jpg");
+    }
+
+    24.00% {
+        background-image: url("./img/haha01jpg12.jpg");
+    }
+
+    26.00% {
+        background-image: url("./img/haha01jpg13.jpg");
+    }
+
+    28.00% {
+        background-image: url("./img/haha01jpg14.jpg");
+    }
+
+    30.00% {
+        background-image: url("./img/haha01jpg15.jpg");
+    }
+
+    32.00% {
+        background-image: url("./img/haha01jpg16.jpg");
+    }
+
+    34.00% {
+        background-image: url("./img/haha01jpg17.jpg");
+    }
+
+    36.00% {
+        background-image: url("./img/haha01jpg18.jpg");
+    }
+
+    38.00% {
+        background-image: url("./img/haha01jpg19.jpg");
+    }
+
+    40.00% {
+        background-image: url("./img/haha01jpg20.jpg");
+    }
+
+    42.00% {
+        background-image: url("./img/haha01jpg21.jpg");
+    }
+
+    44.00% {
+        background-image: url("./img/haha01jpg22.jpg");
+    }
+
+    46.00% {
+        background-image: url("./img/haha01jpg23.jpg");
+    }
+
+    48.00% {
+        background-image: url("./img/haha01jpg24.jpg");
+    }
+
+    50.00% {
+        background-image: url("./img/haha01jpg25.jpg");
+    }
+
+    52.00% {
+        background-image: url("./img/haha01jpg26.jpg");
+    }
+
+    54.00% {
+        background-image: url("./img/haha01jpg27.jpg");
+    }
+
+    56.00% {
+        background-image: url("./img/haha01jpg28.jpg");
+    }
+
+    58.00% {
+        background-image: url("./img/haha01jpg29.jpg");
+    }
+
+    60.00% {
+        background-image: url("./img/haha01jpg30.jpg");
+    }
+
+    62.00% {
+        background-image: url("./img/haha01jpg31.jpg");
+    }
+
+    64.00% {
+        background-image: url("./img/haha01jpg32.jpg");
+    }
+
+    66.00% {
+        background-image: url("./img/haha01jpg33.jpg");
+    }
+
+    68.00% {
+        background-image: url("./img/haha01jpg34.jpg");
+    }
+
+    70.00% {
+        background-image: url("./img/haha01jpg35.jpg");
+    }
+
+    72.00% {
+        background-image: url("./img/haha01jpg36.jpg");
+    }
+
+    74.00% {
+        background-image: url("./img/haha01jpg37.jpg");
+    }
+
+    76.00% {
+        background-image: url("./img/haha01jpg38.jpg");
+    }
+
+    78.00% {
+        background-image: url("./img/haha01jpg39.jpg");
+    }
+
+    80.00% {
+        background-image: url("./img/haha01jpg40.jpg");
+    }
+
+    82.00% {
+        background-image: url("./img/haha01jpg41.jpg");
+    }
+
+    84.00% {
+        background-image: url("./img/haha01jpg42.jpg");
+    }
+
+    86.00% {
+        background-image: url("./img/haha01jpg43.jpg");
+    }
+
+    88.00% {
+        background-image: url("./img/haha01jpg44.jpg");
+    }
+
+    90.00% {
+        background-image: url("./img/haha01jpg45.jpg");
+    }
+
+    92.00% {
+        background-image: url("./img/haha01jpg46.jpg");
+    }
+
+    94.00% {
+        background-image: url("./img/haha01jpg47.jpg");
+    }
+
+    96.00% {
+        background-image: url("./img/haha01jpg48.jpg");
+    }
+
+    98.00%,
+    100% {
+        background-image: url("./img/haha01jpg49.jpg");
+    }
+}

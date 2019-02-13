@@ -1,0 +1,469 @@
+@require './mixins.styl'
+#audioPkBox{
+  overflow: auto;
+  height: 100vh;
+  background: url('../images/audioPkBg.png') no-repeat;
+  background-size: cover;
+  position relative;
+  overflow hidden
+}
+#audioPkBox  .words-switch-count-down .el-progress-bar{
+  border: 0px;
+}
+#audioPkBox  .el-progress-bar__outer{
+  background-color #ccc
+  border-radius 0
+}
+#audioPkBox .el-progress-bar__inner{
+  border-radius 0
+}
+#audioPkBox #earthLeft,#earthRight{
+  width: 949px;
+  position: absolute;
+  bottom: -474px;
+}
+#audioPkBox  #earthLeft{
+    left: -90px;
+  }
+    #earthRight{
+      right: -90px;
+    }
+#audioPkBox embed{
+  width: 100%;
+  height: 100%;
+}
+#audioPkBox .lemonObjectLeft{
+  left: 250px;
+}
+#audioPkBox  .lemonObjectRight,#audioPkBox .lemonObjectLeft{
+    width: 305px;
+    height: 305px;
+    position: absolute;
+    bottom: 310px;
+    visibility: hidden;
+  }
+#audioPkBox  .lemonObjectRight {
+  width: 285px;
+  height: 285px;
+}
+#audioPkBox .lemonObjectRight{
+      right: 272px;
+      width: 262px;
+    }
+
+#audioPkBox    #team{
+      width:100%;
+      height:100%;
+    }
+#audioPkBox    #team li img,#winTeam li img{
+      width:100px;
+      height:100px;
+      box-sizing border-box;
+      border-radius:100%
+    }
+
+#audioPkBox .teamLeft li img,.winLeft li img{
+        border:5px solid #f4a118;
+      }
+#audioPkBox .teamRight li img,.winRight li img{
+        border:5px solid #007be4;
+      }
+#audioPkBox .teamLeft,#audioPkBox .teamRight{
+        padding 20px;
+        width: 560px;
+        border-radius: 22px;
+        position:relative;
+        height 330px
+        //background:#fdfffd82;
+      }
+#audioPkBox .beforeTeam .teamLeft,#audioPkBox .beforeTeam .teamRight{
+  background:#fdfffd82;
+}
+        .teamLeft{
+          margin:50px 0 0 50px
+          float:left
+        }
+#audioPkBox .teamRight{
+            background-size:100px;
+            margin:50px 50px 0 0px
+            float: right
+          }
+#audioPkBox        #team ul li{
+          float:left;
+          margin:0 0 20px 40px
+        }
+#audioPkBox        #team ul li p,#audioPkBox #winTeam ul li p{
+          text-align center;
+          font-size 32px
+          width 100px
+        }
+#audioPkBox        #team ul li p{
+          overflow hidden
+        }
+#audioPkBox .teamLeft ul li p{
+  color:rgb(76,24,0)
+}
+#audioPkBox .teamRight ul li p{
+  color:rgb(0,36,70)
+}
+#audioPkBox #team .teamLeft ul li.active,#team .teamRight ul li.active{
+          margin-left 180px!important
+      }
+#audioPkBox        .teamImg{
+          position:absolute;
+          top:-30px;
+          left:-30px;
+          width:200px
+        }
+#audioPkBox          .teamPers{
+            width:250px;
+            position:absolute;
+            bottom:100px;
+            left:45%
+          }
+#audioPkBox            .teamPers img{
+              max-width 100%;
+              max-height 100%
+            }
+//winTeam
+#audioPkBox .winLeft,#audioPkBox .winRight{
+ width:380px;
+ padding 50px;
+ border-radius: 22px;
+ background:rgba(253, 255, 253, 0.11);
+ position absolute;
+ bottom 100px;
+ z-index 10023;
+ height 722px
+}
+#audioPkBox .winLeft{
+  left 150px
+}
+  .winRight{
+    right 150px
+  }
+#audioPkBox #winTeam ul li{
+  float:left;
+  margin 10px 40px 30px;
+  position relative
+}
+#audioPkBox #winTeam ul li.active{
+  margin 10px 130px;
+}
+#audioPkBox #winTeam ul li.active img{
+  width:130px;
+  height:130px;
+}
+#audioPkBox #winTeam ul li p{
+  color:#ffffff
+  width 103px
+  overflow hidden
+}
+#audioPkBox #winTeam ul li.active p{
+  font-size 50px;
+  width:130px;
+  overflow visible
+  //white-space: nowrap;
+  //text-overflow: ellipsis;
+}
+#audioPkBox .centerTeam{
+  border-radius: 22px;
+  background:rgba(253, 255, 253, 0.31);
+  width:450px;
+  float left;
+  //margin 50px 0 0 14%
+  margin 50px 0 0 90px
+  padding-top 13px
+}
+#audioPkBox .yuyin{
+  padding 20px 0;
+  text-align center;
+  position relative
+}
+#audioPkBox  .yuyin img{
+    width 130px
+  }
+#audioPkBox    .cookPer{
+      height 250px;
+      //height: 332px
+      //margin-left 105px
+    }
+#audioPkBox      .cooking{
+        font-size 100px;
+        text-align center;
+        padding 10px;
+        color:#333;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        //-webkit-text-stroke: 0.5px #ff4e49;
+        //text-shadow: 0 1px #ff4e49, 1px 0 #ff4e49, -1px 0 #ff4e49, 0 -1px #ff4e49;
+        //font-weight: 900;
+      }
+
+#audioPkBox        .process{
+          width 80%;
+          margin-left 10%;
+          height 25px;
+          background gray;
+          border-radius 4px;
+        }
+#audioPkBox .earthImg{
+  width: 100%;
+  height: 100%;
+}
+#audioPkBox .flag{
+  width: 114px;
+  position: absolute;
+  top: -20px;
+  left: 632px;
+}
+#audioPkBox .flagText{
+  position: absolute;
+  top: 40px;
+  left: 15px;
+  font-size: 40px;
+  color: white;
+  transform: rotate(29deg);
+  width: 88px;
+  text-align: center;
+}
+#audioPkBox .flagRight{
+  width: 114px;
+  position: absolute;
+  top: -20px;
+  left: 236px;
+}
+#audioPkBox .flagTextRight{
+  transform: rotate(-29deg);
+}
+#audioPkBox .lemonJing{
+  width: 215px;
+  position: absolute;
+  left: 386px;
+  top: -96px;
+}
+#audioPkBox .hahaJing{
+  width: 143px;
+  position: absolute;
+  left: 386px;
+  top: -96px;
+}
+#audioPkBox .words-switch-count-down{
+  bottom: 0px;
+  position: relative;
+  width 80%;
+  left: 0;
+  margin: 40px auto;
+  margin-top: 20px;
+}
+#audioPkBox #elProgress{
+  transform: rotateY(180deg);
+}
+#audioPkBox .words-switch-count-down .el-progress-bar .el-progress-bar__innerText{
+  background: url('../images/shandian.png') no-repeat;
+  position: absolute;
+  width: 80px;
+  height: 120px;
+  background-size: cover;
+  top:100%
+}
+#audioPkBox #elProgress .el-progress-bar__innerText{
+  top: -40px;
+}
+#audioPkBox #pro2 .el-progress-bar__innerText{
+  top: -45px;
+}
+#audioPkBox .yanwuRight{
+  bottom: 290px;
+  right: 150px;
+  position: absolute;
+  width 260px
+}
+#audioPkBox .yanwuRight embed{
+  transform: scale(2);
+}
+#audioPkBox .nliangRight{
+  right:80px;
+  width 650px;
+  bottom 290px;
+  height:400px;
+  position: absolute;
+}
+#audioPkBox .yanwuLeft{
+  bottom: 290px;
+  left: 150px;
+  transform: rotateY(-180deg);
+  position: absolute;
+  width 260px
+}
+#audioPkBox .yanwuLeft embed{
+  transform: scale(2);
+}
+#audioPkBox .nliangLeft{
+  left:80px;
+  width 650px;
+  bottom 290px;
+  height:400px;
+  position: absolute;
+  transform: rotateY(-180deg);
+}
+#audioPkBox #haha{
+  z-index 999;
+}
+#audioPkBox .starObj,.flowerObj,.lastObj{
+  position absolute;
+  bottom 100px;
+  z-index 10001;
+  left:70px;
+}
+#audioPkBox .starObj{
+  height:200px;
+  width 350px;
+  bottom 700px;
+  left 230px;
+  z-index:10003
+}
+#audioPkBox .lastObj{
+  bottom 350px;
+  width 1200px;
+  height:900px;
+  left:-200px;
+}
+#audioPkBox .flowerObj{
+  height 100%;
+  width 680px;
+}
+#audioPkBox .starObjRight,.flowerObjRight,.lastObjRight{
+  position absolute;
+  bottom 100px;
+  z-index 10001;
+  right:70px;
+}
+#audioPkBox .starObjRight{
+  height:200px;
+  width 350px;
+  bottom 700px;
+  right 230px;
+  z-index:10003
+}
+#audioPkBox .lastObjRight{
+  bottom 350px;
+  width 1200px;
+  height:900px;
+  right:-200px;
+}
+#audioPkBox .flowerObjRight{
+  height 100%;
+  width 680px;
+}
+#audioPkBox .starImg {
+  background: url('../images/grab-stars.png') no-repeat;
+  width 80px;
+  height:80px;
+  background-size: cover;
+  position absolute;
+  top:-50px;
+  line-height 94px;
+  text-align center;
+  color:white;
+  font-size 30px;
+  margin-left 10px;
+  font-weight 600;
+  text-shadow: 0 1px #e18900, 1px 0 #e18900, -1px 0 #e18900, 0 -1px #e18900;
+}
+#audioPkBox #winTeam ul li.active .starImg{
+  margin-left 25px;
+}
+#audioPkBox .fixBox{
+  position fixed;
+  height:100%;
+  width:100%;
+  //background rgba(10, 1, 1, 0.9);
+  background: rgba(0,0,0,0.6);
+  z-index:10000
+  opacity 0.7
+}
+#audioPkBox .visi{
+  visibility: visible
+}
+#audioPkBox .voiceWaves{
+  width: 225px;
+  height: 80px;
+}
+#audioPkBox .voiceWaves  embed{
+    height: 160px;
+}
+#audioPkBox .voiceProgress{
+  position absolute
+  left 164px
+  top 34px
+}
+#audioPkBox .mvpImg{
+  position absolute!important
+  border: 0px!important;
+  border-radius: 0!important;
+  width 91px!important
+  height: 41px!important;
+  left: 22px;
+  top: 98px;
+}
+#audioPkBox .winImg{
+  position absolute
+  width 310px
+  z-index: 9;
+  top: -112px;
+  left: 118px;
+}
+#audioPkBox .winYellow{
+  box-shadow: 0px 0px 2000px 20px yellow;
+}
+#audioPkBox .leftMi,#audioPkBox .rightMi{
+  position: absolute;
+  width: 627px;
+  top: -12px;
+  height: 535px;
+  left: 11px;
+}
+#audioPkBox .leftP,#audioPkBox .rightP{
+  position: absolute;
+  //bottom: -55px;
+  font-size: 55px;
+  width: 233px;
+  text-align: center;
+}
+#audioPkBox .leftP {
+  color: #4c1800
+    //-webkit-text-stroke: 1px white;
+}
+#audioPkBox .rightP {
+  right: -13px
+  color: #002446
+  //-webkit-text-stroke: 1px white;
+}
+#audioPkBox #team ul{
+  position relative
+  height 320px
+  max-height 320px
+  overflow hidden
+}
+#audioPkBox  .lastPing{
+    bottom: -159px;
+    width: 1712px;
+    height: 1920px;
+    left: 112px;
+  }
+#audioPkBox    .flowerPing{
+      width: 1920px;
+      left: 0;
+    }
+#audioPkBox  .draw{
+    position: absolute;
+    z-index: 10001;
+    width: 435px;
+    height: 169px;
+    left: 774px;
+    top: 212px;
+  }

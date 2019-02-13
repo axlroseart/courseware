@@ -1,0 +1,71 @@
+.animation-blingbling {
+    width: 80px;
+    height: 80px;
+    background-image: url("./img/bling_star_0.png");
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    animation-name: keyframes-blingbling;
+    animation-duration: 0.8s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+}
+
+@keyframes keyframes-blingbling {
+    0% {
+        width: 80px;
+        height: 80px;
+        background-image: url("./img/bling_star_0.png");
+        background-size: 80px 80px;
+    }
+
+    7.69% {
+        background-image: url("./img/bling_star_1.png");
+    }
+
+    15.38% {
+        background-image: url("./img/bling_star_2.png");
+    }
+
+    23.08% {
+        background-image: url("./img/bling_star_3.png");
+    }
+
+    30.77% {
+        background-image: url("./img/bling_star_4.png");
+    }
+
+    38.46% {
+        background-image: url("./img/bling_star_5.png");
+    }
+
+    46.15% {
+        background-image: url("./img/bling_star_6.png");
+    }
+
+    53.85% {
+        background-image: url("./img/bling_star_7.png");
+    }
+
+    61.54% {
+        background-image: url("./img/bling_star_8.png");
+    }
+
+    69.23% {
+        background-image: url("./img/bling_star_9.png");
+    }
+
+    76.92% {
+        background-image: url("./img/bling_star_10.png");
+    }
+
+    84.62% {
+        background-image: url("./img/bling_star_11.png");
+    }
+
+    92.31%,
+    100% {
+        background-image: url("./img/bling_star_12.png");
+    }
+}

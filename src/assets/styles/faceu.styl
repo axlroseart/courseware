@@ -1,0 +1,43 @@
+@require './mixins.styl'
+.faceu-index
+  width 1920px
+  height 1080px
+  // background url(../images/faceu-back-demo.jpg) no-repeat
+  background-size 100%
+  overflow hidden
+  .top-back, .bottom-back
+    width 100%
+    height 352px
+    position absolute
+    // transform scale(0.5333333333)
+    left 0
+    z-index 0
+  .top-back
+    top 0
+  .leap-ip-speak, .leap-ip-jump, .leap-ip-good-job, .leap-ip-wave
+    position absolute
+    width 584px
+    height 552px
+    z-index 9
+    display block
+    left 0
+    right 0
+    bottom -50px
+    margin auto
+    transform scale(0.8)
+  .throw-stars
+    width 100%
+    height 100%
+    display block
+    overflow hidden
+    img
+      position absolute
+      display inline-block
+      width 154px
+      height 154px
+      left 43%
+      bottom 220px
+      margin 0
+      opacity 0
+  .bottom-back
+    bottom 0

@@ -1,0 +1,219 @@
+.gka-wrap {
+    width: 1920px;
+    height: 1080px;
+}
+
+.gka5MostCreativeAward {
+    background-image: url("./img/lemo200.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: keyframes-5MostCreativeAward;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+}
+
+@keyframes keyframes-5MostCreativeAward {
+    0% {
+        background-image: url("./img/lemo200.jpg");
+    }
+
+    2.00% {
+        background-image: url("./img/lemo201.jpg");
+    }
+
+    4.00% {
+        background-image: url("./img/lemo202.jpg");
+    }
+
+    6.00% {
+        background-image: url("./img/lemo203.jpg");
+    }
+
+    8.00% {
+        background-image: url("./img/lemo204.jpg");
+    }
+
+    10.00% {
+        background-image: url("./img/lemo205.jpg");
+    }
+
+    12.00% {
+        background-image: url("./img/lemo206.jpg");
+    }
+
+    14.00% {
+        background-image: url("./img/lemo207.jpg");
+    }
+
+    16.00% {
+        background-image: url("./img/lemo208.jpg");
+    }
+
+    18.00% {
+        background-image: url("./img/lemo209.jpg");
+    }
+
+    20.00% {
+        background-image: url("./img/lemo210.jpg");
+    }
+
+    22.00% {
+        background-image: url("./img/lemo211.jpg");
+    }
+
+    24.00% {
+        background-image: url("./img/lemo212.jpg");
+    }
+
+    26.00% {
+        background-image: url("./img/lemo213.jpg");
+    }
+
+    28.00% {
+        background-image: url("./img/lemo214.jpg");
+    }
+
+    30.00% {
+        background-image: url("./img/lemo215.jpg");
+    }
+
+    32.00% {
+        background-image: url("./img/lemo216.jpg");
+    }
+
+    34.00% {
+        background-image: url("./img/lemo217.jpg");
+    }
+
+    36.00% {
+        background-image: url("./img/lemo218.jpg");
+    }
+
+    38.00% {
+        background-image: url("./img/lemo219.jpg");
+    }
+
+    40.00% {
+        background-image: url("./img/lemo220.jpg");
+    }
+
+    42.00% {
+        background-image: url("./img/lemo221.jpg");
+    }
+
+    44.00% {
+        background-image: url("./img/lemo222.jpg");
+    }
+
+    46.00% {
+        background-image: url("./img/lemo223.jpg");
+    }
+
+    48.00% {
+        background-image: url("./img/lemo224.jpg");
+    }
+
+    50.00% {
+        background-image: url("./img/lemo225.jpg");
+    }
+
+    52.00% {
+        background-image: url("./img/lemo226.jpg");
+    }
+
+    54.00% {
+        background-image: url("./img/lemo227.jpg");
+    }
+
+    56.00% {
+        background-image: url("./img/lemo228.jpg");
+    }
+
+    58.00% {
+        background-image: url("./img/lemo229.jpg");
+    }
+
+    60.00% {
+        background-image: url("./img/lemo230.jpg");
+    }
+
+    62.00% {
+        background-image: url("./img/lemo231.jpg");
+    }
+
+    64.00% {
+        background-image: url("./img/lemo232.jpg");
+    }
+
+    66.00% {
+        background-image: url("./img/lemo233.jpg");
+    }
+
+    68.00% {
+        background-image: url("./img/lemo234.jpg");
+    }
+
+    70.00% {
+        background-image: url("./img/lemo235.jpg");
+    }
+
+    72.00% {
+        background-image: url("./img/lemo236.jpg");
+    }
+
+    74.00% {
+        background-image: url("./img/lemo237.jpg");
+    }
+
+    76.00% {
+        background-image: url("./img/lemo238.jpg");
+    }
+
+    78.00% {
+        background-image: url("./img/lemo239.jpg");
+    }
+
+    80.00% {
+        background-image: url("./img/lemo240.jpg");
+    }
+
+    82.00% {
+        background-image: url("./img/lemo241.jpg");
+    }
+
+    84.00% {
+        background-image: url("./img/lemo242.jpg");
+    }
+
+    86.00% {
+        background-image: url("./img/lemo243.jpg");
+    }
+
+    88.00% {
+        background-image: url("./img/lemo244.jpg");
+    }
+
+    90.00% {
+        background-image: url("./img/lemo245.jpg");
+    }
+
+    92.00% {
+        background-image: url("./img/lemo246.jpg");
+    }
+
+    94.00% {
+        background-image: url("./img/lemo247.jpg");
+    }
+
+    96.00% {
+        background-image: url("./img/lemo248.jpg");
+    }
+
+    98.00%,
+    100% {
+        background-image: url("./img/lemo249.jpg");
+    }
+}

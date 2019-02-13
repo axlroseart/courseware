@@ -1,0 +1,1113 @@
+@require './mixins.styl'
+#app
+  font-family Sassoon
+  position relative
+  width 100%
+  height 100%
+  overflow hidden
+  // background url(../images/tween-back.png)
+  // background #000
+  background-size 100%
+.games-index
+  font-family Sassoon
+  position absolute
+  // width 1920px
+  // height 1080px
+  width 100%
+  height 100%
+  top 0
+  bottom 0
+  left 0
+  right 0
+  margin 0 auto
+  overflow hidden
+  .read-aloud
+    width 100%
+    height 100%
+  .grab-stars
+    width 100%
+    height 100%
+    // background linear-gradient(to bottom, #5a77d5, #5a68cb)
+    background url(../images/grab-back.jpg)
+    background-size 100%
+    background-repeat no-repeat
+    .grab-back
+      width 100%
+      height 100%
+      padding-top 1px
+      margin 0 auto
+      .flow-stars
+        position absolute
+        display block
+        img.star
+          width 154px
+          height 175px
+          transform scale(0.5)
+          position absolute
+          z-index 0
+          left 50px
+          opacity 0
+        .halo
+          position absolute
+          z-index 9
+          top 90px
+          left -33%
+          width 322px
+          height 315px
+          text-align center
+          .score-star
+            position absolute
+            top -75px
+            left 32%
+            z-index 9
+            font-size 30px
+            width 131px
+            height 131px
+            line-height 131px
+            background url(../images/score-stars-yellow.png)
+            background-size 100%
+            background-repeat no-repeat
+          .score-star-gold
+            transform scale(1)
+          .score-star-siver
+            transform scale(0.8)
+          .score-star-normal
+            transform scale(0.8)
+          .back-light-gold
+            position absolute
+            top -65px
+            left 11%
+            width 264px
+            height 258px
+            background url(../images/light-back-gold.png)
+            background-size 100%
+            transform scale(0.8)
+          .back-light-silver
+            position absolute
+            top -60px
+            left 14%
+            width 232px
+            height 226px
+            background url(../images/light-back-silver.png)
+            background-size 100%
+            transform scale(0.8)
+          .border-two-gold
+            position relative
+            left 29%
+            top -10px
+            width 150px
+            height 150px
+            border-radius 50%
+            background-color #F8E71C
+            opacity 0.3
+          .border-one-gold
+            position absolute
+            left 32%
+            top 0
+            width 130px
+            height 130px
+            border-radius 50%
+            background-color #F8E71C
+            img
+              width 85%
+              height 85%
+              border-radius 50%
+              margin-top 8px
+          .border-two-silver
+            position relative
+            left 30%
+            top -10px
+            width 123px
+            height 121px
+            border-radius 50%
+            background-color #35e673
+            opacity 0.3
+          .border-one-silver
+            position absolute
+            left 33%
+            top -3px
+            width 106px
+            height 106px
+            border-radius 50%
+            background-color #35e673
+            img
+              width 85%
+              height 85%
+              border-radius 50%
+              margin-top 8px
+          .border-two-normal
+            position relative
+            left 29%
+            top -10px
+            width 150px
+            height 150px
+            border-radius 50%
+            // background-color #FDEB9D
+            opacity 0.3
+          .border-one-normal
+            position absolute
+            left 32%
+            top 0
+            width 130px
+            height 130px
+            border-radius 50%
+            // background-color #FDEB9D
+            img
+              width 90%
+              height 90%
+              border-radius 50%
+              margin-top 6px
+          span.name
+            position absolute
+            top 125px
+            left 34%
+            width 114px
+            height 30px
+            line-height 30px
+            text-align center
+            border #fff 3px solid
+            color #000
+            font-size 20px
+            border-radius 16px
+          span.name-gold
+            background-color #F8E71C
+          span.name-silver
+            top 92px
+            left 30%
+            background-color #35e673
+          span.name-normal
+            top 115px
+            background-color #FDEB9D
+          i.icon-white-star
+            width 39px
+            height 39px
+            position absolute
+            background url(../images/icon-white-star.png)
+            background-size 100%
+            background-repeat no-repeat
+            &:nth-child(1)
+              transform scale(0.25)
+.games-rank
+  width 100%
+  margin 0 auto
+  padding-top 1px
+  height 100%
+  width 100%
+  background url(../images/normal-rank-back.png)
+  background-size 100%
+  .caidai-left
+    position absolute
+    left 0
+    width 459px
+    height 236px
+    background url(../images/caidai-left.png)
+    background-size 100%
+  .caidai-right
+    position absolute
+    right 0
+    width 439px
+    height 222px
+    background url(../images/caidai-right.png)
+    background-size 100%
+  .grill
+    position relative
+    margin 200px auto
+    margin-top 180px
+    text-align center
+    left -20px
+    .cup
+        display inline-block
+        position absolute
+        z-index 9
+    // .grill-four
+    //   left -2%
+    // .grill-two
+    //   left 24%
+    // .grill-one
+    //   left 40%
+    // .grill-three
+    //   right 26%
+    // .grill-five
+    //   right 11%
+    .grill-four, .grill-two, .grill-one, .grill-three, .grill-five
+      opacity 0
+    .grill-four
+      top -30px
+      left -5%
+    .grill-two
+      top -20px
+      left -5%
+    .grill-one
+      margin-top -23%
+      left 44%
+    .grill-three
+      top -20px
+      right -5%
+    .grill-five
+      top -30px
+      right -5%
+    .rank-common
+      position relative
+      .star-score
+        i.rank-star
+          position absolute
+          z-index 9
+          background-repeat no-repeat
+        i.rank-star-3
+          top -50px
+          left -40px
+          width 374px
+          height 288px
+          background url(../images/rank-star-group-three.png)
+          background-size 100%
+        i.rank-star-2
+          top 0
+          left -30px
+          width 242px
+          height 186px
+          background url(../images/rank-star-group-two.png)
+          background-size 100%
+        i.rank-star-1
+          top 0
+          left 23px
+          width 126px
+          height 171px
+          background url(../images/rank-star-group-one.png)
+          background-size 100%
+        span
+          position absolute
+          font-size 42px
+          font-weight bold
+          z-index 9
+          color #fa7200
+      .avatar
+        position relative
+        .wrap
+          // border-radius 50%
+          margin 0 auto
+        .inside
+          position absolute
+          margin 0 auto
+          left 0
+          right 0
+          bottom 0
+          border-radius 50%
+          img
+            position absolute
+            top 0
+            bottom 0
+            left 0
+            right 0
+            margin 0 auto
+            border-radius 50%
+      .rank-name
+        position relative
+        z-index 9
+        h2
+          display block
+          font-size 42px
+          color #fff000
+          margin-top 20px
+      .rank-cup
+        position relative
+        z-index -1
+        i
+          display block
+          font-size 56px
+          color #fa7200
+          position absolute
+          left 0
+          right 0
+          text-shadow 0 0 1px #fff, 0px 0px 2px #fff, 0px 0px 3px #fff, 0px 0px 4px #fff, 0px 0px 5px #fff,
+                      0 0 1px #fff, 0px 0px 2px #fff, 0px 0px 3px #fff, 0px 0px 4px #fff, 0px 0px 5px #fff
+  .grill-four, .grill-five
+    .wrap
+      width 168px
+      height 168px
+      // background #45d593
+      background url(../images/rank-avatar-back-a-three.png)
+      background-size 100%
+    .inside
+      top 7%
+      width 146px
+      height 146px
+      background #fff
+      img
+        width 100%
+        height 100%
+  .grill-two, .grill-three
+    .wrap
+      width 227px
+      height 180px
+      // background #ff867c
+      background url(../images/rank-avatar-back-a-two.png)
+      background-size 100%
+    .inside
+      top 6%
+      width 156px
+      height 156px
+      background #fff
+      img
+        width 100%
+        height 100%
+  .grill-one
+    .wrap
+      width 297px
+      height 250px
+      // background #fff200
+      background url(../images/rank-avatar-back-a-one.png)
+      background-size 100%
+    .inside
+      top 4%
+      width 198px
+      height 198px
+      img
+        width 100%
+        height 100%
+  .grill-one
+    .rank-name
+      left 16%
+  .grill-two
+    .rank-name
+      width 196px
+      height 83px
+      font-size 40px
+      top 78px
+      left 0
+      // background url(../images/rank-name-back-new.png)
+      background-size 100%
+      background-repeat no-repeat
+  .grill-one
+    .rank-name
+      bottom -100px
+      width 214px
+      height 90px
+      font-size 45px
+      // background url(../images/rank-name-back-new.png)
+      background-size 100%
+      background-repeat no-repeat
+  .grill-four
+    .rank-cup
+      left 3%
+      width 159px
+      height 199px
+      // background url(../images/rank-holy-3.png)
+      background-size 100%
+      background-repeat no-repeat
+      i
+        top 45px
+    .rank-name
+      width 165px
+      height 69px
+      font-size 35px
+      top 90px
+      left 0
+      // background url(../images/rank-name-back-new.png)
+      background-size 100%
+      background-repeat no-repeat
+  .grill-two
+    .rank-cup
+      left 3%
+      width 181px
+      height 234px
+      // background url(../images/rank-holy-2.png)
+      background-size 100%
+      background-repeat no-repeat
+      i
+        top 57px
+  .grill-one
+    .rank-cup
+      left 20%
+      width 203px
+      height 279px
+      // background url(../images/rank-holy-1.png)
+      background-size 100%
+      background-repeat no-repeat
+      i
+        top 65px
+  .grill-three
+    .rank-cup
+      left 3%
+      width 181px
+      height 234px
+      // background url(../images/rank-holy-2.png)
+      background-size 100%
+      background-repeat no-repeat
+      i
+        top 57px
+    .rank-name
+      top 78px
+      left 20px
+      font-size 40px
+      width 196px
+      height 83px
+      // background url(../images/rank-name-back-new.png)
+      background-size 100%
+      background-repeat no-repeat
+  .grill-five
+    .rank-cup
+      left 3%
+      width 159px
+      height 199px
+      // background url(../images/rank-holy-3.png)
+      background-size 100%
+      background-repeat no-repeat
+      i
+        top 45px
+    .rank-name
+      top 90px
+      left 1%
+      width 165px
+      height 69px
+      font-size 35px
+      // background url(../images/rank-name-back-new.png)
+      background-size 100%
+      background-repeat no-repeat
+  .grill-four, .grill-five
+    .rank-common
+      top -10px
+    i.rank-star
+      left 26%
+      top 58px
+    h2
+      line-height 60px
+  .grill-two, .grill-three
+    .rank-common
+      top -20px
+    i.rank-star
+      left 32%
+      top 58px
+    h2
+      line-height 78px
+  .grill-two, .grill-three, .grill-four, .grill-five
+    .avatar
+      top 115px
+  .grill-two, .grill-three
+    span
+      top 85px
+      left 45%
+  .grill-four, .grill-five
+    span
+      top 85px
+      left 40%
+  .grill-one
+    .rank-common
+      top 0px
+    i.rank-star
+      left 38%
+      top 100px
+    .avatar
+      top 140px
+      left 2%
+    span
+      top 130px
+      left 48%
+    h2
+      line-height 83px
+  .grill-two
+    .avatar
+      left -4%
+  .grill-three
+    .avatar
+      left 1%
+  .grill-four
+    .avatar
+      left -2%
+  .grill-five
+    .avatar
+      left -4%
+  .rank-area-b
+    position absolute
+    width 70%
+    height 490px
+    bottom 40px
+    background-color rgba(255, 234, 0, 0.1)
+    border-radius 62px
+    left 0
+    right 0
+    margin auto
+    box-shadow 0 0 29px #fffc00, 0 0 29px #fffc00, 0 0 29px #fffc00
+    .student-list
+      position absolute
+      display block
+      width 100%
+      right 0
+      margin auto
+      margin-top 5%
+      ul
+        width 78%
+        margin 0 auto
+      li
+        position relative
+        display inline-block
+        margin-bottom 95px
+        img
+          width 128px
+          height 131px
+          border-radius 50%
+        i.rank-stars
+          position absolute
+          opacity 0
+          top -115%
+          left 0
+          right 0
+          margin auto
+          z-index 9
+          display block
+          padding-top 1px
+          width 96px
+          height 97px
+          color #000000
+          background url(../images/grab-stars.png) center center no-repeat
+          background-size 90%
+        i.update-score
+          position absolute
+          top -20px
+          left 0
+          right 0
+          margin auto
+          opacity 0
+          display block
+          font-size 48px
+          width 66px
+          z-index 9
+          text-align center
+          color #fff
+          text-align center
+          text-shadow 0 0 2px #e18900, 0px 0px 4px #e18900, 0px 0px 6px #e18900, 0px 0px 8px #e18900, 0px 0px 10px #e18900,
+            0 0 2px #e18900, 0px 0px 4px #e18900, 0px 0px 6px #e18900, 0px 0px 8px #e18900, 0px 0px 10px #e18900,
+            0 0 2px #e18900, 0px 0px 4px #e18900, 0px 0px 6px #e18900, 0px 0px 8px #e18900, 0px 0px 10px #e18900
+        i.bling-bling
+          width 80px
+          height 80px
+          position absolute
+          top -45px
+          left -66px
+        span.areab-name
+          display inline-block
+          position absolute
+          left 0
+          right 0
+          bottom -40px
+          font-size 40px
+          color #fff
+          text-align center
+      li.block-b-one-list
+        margin-right 101px
+      li.noMarginRight
+        margin-right 0
+    .leap
+      position relative
+      width 100%
+      height 100%
+      display inline-block
+      .badge-leap
+        position absolute
+        top -41%
+        left -2%
+        width 132px
+        height 183px
+        background url(../images/rank-area-leap.png)
+        background-size 100%
+    .haha
+      position relative
+      width 635px
+      height 300px
+      display inline-block
+      border #ff867c 13px solid
+      background-color rgba(255, 134, 124, 0.3)
+      border-radius 62px
+      margin-right 21px
+      .badge-haha
+        position absolute
+        top -34%
+        left 1%
+        width 128px
+        height 166px
+        background url(../images/rank-area-haha.png)
+        background-size 100%
+    .lemon
+      position relative
+      width 635px
+      height 300px
+      display inline-block
+      border #45d593 13px solid
+      background-color rgba(69, 213, 147, 0.3)
+      border-radius 62px
+      .badge-lemon
+        position absolute
+        top -32%
+        left 1.5%
+        width 116px
+        height 156px
+        background url(../images/rank-area-lemon.png)
+        background-size 100%
+.shape 
+  position absolute
+  -webkit-animation circle 8s linear infinite
+  animation circle 8s linear infinite
+  -webkit-animation-fill-mode both
+  animation-fill-mode both
+.equilizer
+  position relative
+  top 55px
+  height: 68px
+  width: 68px
+  transform: rotate(180deg)
+.wave-left
+  left -10px
+.wave-right
+  right -24px
+.bar
+  fill: #d8d8d8
+  width: 8px
+  display inline-block
+  animation: equalize 4s 0s infinite
+.bar:nth-child(1)
+  animation-delay: -1.9s
+.bar:nth-child(2)
+  animation-delay: -2s
+.bar:nth-child(3)
+  animation-delay: -2.3s
+.bar:nth-child(4)
+  animation-delay: -2.4s
+.bar:nth-child(5)
+  animation-delay: -2.1s
+.avatar-list
+  position absolute
+  width 90%
+  margin 0 auto
+  left 0
+  right 0
+  bottom 50px
+  text-align center
+  li.score-data-li-1 .avatar
+      transform scale(0.6)
+  li.score-data-li-2 .avatar
+      transform scale(0.7)
+  li.score-data-li-3 .avatar
+      transform scale(1)
+  li
+    display inline-block
+    position relative
+    margin-right 28px
+    opacity 0
+    span
+      position absolute
+      z-index 9
+    span.score-number
+      z-index 19
+      // left 0
+      // right 0
+      font-size 30px
+      width 131px
+      height 131px
+      line-height 131px
+      background url(../images/score-stars-yellow.png)
+      background-size 100%
+      background-repeat no-repeat
+      opacity 0
+    span.score-number-gold
+      top 60px
+      right -71px
+      transform scale(1)
+    span.score-number-silver
+      top 47px
+      right -50px
+      transform scale(0.7)
+    span.score-number-normal
+      top 40px
+      right -48px
+      transform scale(0.6)
+    span.perfect
+      width 177px
+      height 105px
+      left -25px
+      // top 75px
+      top -55px
+      transform scale(1)
+      background url(../images/icon-perfect.png)
+      background-size 100%
+      background-repeat no-repeat
+    span.great
+      width 132px
+      height 81px
+      left -3px
+      // top 90px
+      top -11px
+      transform scale(0.7)
+      background url(../images/icon-great.png)
+      background-size 100%
+      background-repeat no-repeat
+    span.cool
+      width 90px
+      height 47px
+      // top 100px
+      top 8px
+      left 18px
+      transform scale(0.6)
+      background url(../images/icon-cool.png)
+      background-size 100%
+      background-repeat no-repeat
+    .star-score
+      i.rank-star
+        position absolute
+        left 7%
+        top -60px
+        transform scale(0.7)
+        z-index 9
+        width 111px
+        height 126px
+        line-height 105px
+        font-size 42px
+        font-weight bold
+        color #fa7200
+        background url(../images/rank-star.png)
+        background-size 100%
+        background-repeat no-repeat
+      span
+        position absolute
+        top -24px
+        left 44%
+        font-size 36px
+        color #fa7200
+    .avatar
+      position relative
+      z-index 0
+      .wrap
+        border-radius 50%
+        opacity 0.34
+        margin 0 auto
+        width 125px
+        height 125px
+        background #F8E71C
+      .inside
+        position absolute
+        margin 0 auto
+        top 5%
+        left 0
+        right 0
+        bottom 0
+        border-radius 50%
+        width 110px
+        height 110px
+        background #F8E71C
+        img
+          width 90%
+          height 90%
+          position: absolute
+          top 5%
+          bottom 0
+          left 0
+          right 0
+          margin 0 auto
+          border-radius 50%
+      span
+        position relative
+        top -20px
+        z-index 9
+        display block
+        padding 6px 0
+        background-color #FEEB8F
+        font-size 20px
+        font-weight bold
+        text-align center
+        border-radius 18px
+        border #fff 3px solid
+.rank-index
+  width 100%
+  height 100%
+.rank-flash-light
+  position absolute
+  left 0
+  right 0
+  top 0
+  bottom 0
+  margin 0 auto
+  opacity 0
+.static-area
+  position relative
+  width 868px
+  height 360px
+  margin 27px auto
+  .mic-man
+    display inline-block
+    position absolute
+    top 16px
+    left: -37px
+    z-index 2
+    width 360px
+    height 220px
+    // background url(../images/micman.png)
+  .title
+    display inline-block
+    position absolute
+    right -40px
+    width 700px
+    height 360px
+    line-height 320px
+    font-size 120px
+    text-align center
+    color #333
+    margin 0px auto
+    background url(../images/title-back.png)
+    background-size 100%
+    background-repeat no-repeat
+  .icon-record
+    width 192px
+    height 192px
+    margin 0px auto
+    background url(../images/icon-record.png)
+    background-size 100%
+    background-repeat no-repeat
+.game-ready-index
+  width 100%
+  height 100%
+.ready-go
+  width 100%
+  height 100%
+  padding-top 1px
+  margin 0 auto
+  background url(../images/grab-back.jpg)
+  background-size 100%
+  background-repeat no-repeat
+.vertical-circle-stars
+  position absolute
+  text-align center
+  &:nth-child(1) .circle
+    top -20px
+  &:nth-child(2) .circle
+    top -18px
+  &:nth-child(8) .circle
+    top -18px
+  &:nth-child(9) .circle
+    top -18px
+  .vertical
+    width 3px
+    height 360px
+    margin 0 auto
+    background-color #fff
+    transition all 0.5s ease-out
+  .circle
+    position relative
+    width 114px
+    height 114px
+    background url(../images/star.png)
+    background-size 100%
+    background-repeat no-repeat
+    transition all 0.5s ease-out
+i.icon-star
+  position absolute
+  width 91px
+  height 91px
+  display block
+  background url(../images/star-s.png)
+  background-size 100%
+  background-repeat no-repeat
+.bottom-light
+  width 1680px
+  height 1680px
+  position absolute
+  top 23%
+  bottom 0
+  left 0
+  right 0
+  margin 0 auto
+  background url(../images/light-big.png)
+  background-size 100%
+.ready-go-animate
+  width 570px
+  height 215px
+  position absolute
+  top 35%
+  bottom 0
+  left 0
+  right 0
+  margin 0 auto
+  .ready-read
+    position absolute
+    left -200%
+    // bottom -360%
+    width 457px
+    height 206px
+    background url(../images/ready-read.png)
+    background-size 100%
+    background-repeat no-repeat
+  .ready-y
+    position absolute
+    right 0
+    top 55px
+    opacity 0
+    transform scale(0.1)
+    width 155px
+    height 164px
+    background url(../images/ready-y.png)
+    background-size 100%
+    background-repeat no-repeat
+  .go
+    position absolute
+    top 200px
+    left 27%
+    width 267px
+    height 171px
+    opacity 0
+    background url(../images/go.png)
+    background-size 100%
+    background-repeat no-repeat
+.words-switch-count-down
+  width 300px
+  margin 0 auto
+  position absolute
+  bottom 50px
+  left -28px
+  right 0px
+  .el-progress-bar
+    border #333 4px solid
+    border-radius 20px
+    .el-progress-bar__outer
+      overflow visible
+    .el-progress-bar__inner
+      background-image linear-gradient(to right , #feeb00, #f5480e)
+    .progress-star
+      width 46px
+      height 45px
+      background url(../images/progress-star.png) no-repeat
+      background-size 100%
+    .el-progress-bar__innerText
+      position absolute
+      right -40px
+      top -20px
+      width 46px
+      height 45px
+      background url(../images/progress-star.png) no-repeat
+      background-size 100%
+      text-indent 9999px
+.logo
+  position absolute
+  z-index 999
+  top 40px
+  left 60px
+  width 86px
+  height 86px
+  background url(../images/logo.png) no-repeat
+  background-size 100%
+.voice-waves-flash
+  display block
+  width 421px
+  height 157px
+  margin 0 auto
+#motionPath
+  position relative
+  z-index -1
+  opacity 0
+.flow-stars
+  position relative
+  z-index 99
+  left 0
+  right 0
+  top 10%
+  margin auto
+  text-align center
+  li
+    position absolute
+    display inline-block
+    width 107px
+    height 106px
+    background url(../images/flowStar.png) no-repeat
+    background-size 100%
+    transform scale(2)
+  for row in 1 2 3 4 5 6 7 8 9
+    li:nth-child({row})
+      left: 13% + 7% * row
+.flow-star-mask
+  width 100%
+  height 100%
+  position absolute
+  z-index 98
+  bottom 0
+  background-color rgba(0, 0, 0, 0.5)
+.canvas-a-star
+  width 100%
+  height 100%
+  position absolute
+  top 0
+  z-index 9
+.canvas-a-star-big
+  width 100%
+  height 100%
+  position absolute
+  top 0
+  z-index 99
+.voice-waves
+  width 400px
+  height 150px
+  display block
+  background-size 100%
+  position absolute
+  top -155px
+  right 187px
+  z-index 0
+.big-star-anime
+  width 1920px
+  height 1080px
+  position absolute
+  top 0
+  z-index 9999
+.ready-go-count-down
+  position absolute
+  width 100%
+  height 100%
+  .count-down-three, .count-down-two, .count-down-one
+    position absolute
+    z-index 99
+    top 0
+    right 0
+    left 0
+    bottom 0
+    margin auto
+    opacity 0
+    // transform scale(0)
+.count-down-three
+  width 114px
+  height 186px
+  background url(../images/count-down-3.png)
+  background-size 100%
+.count-down-two
+  width 127px
+  height 163px
+  background url(../images/count-down-2.png)
+  background-size 100%
+.count-down-one
+  width 111px
+  height 191px
+  background url(../images/count-down-1.png)
+  background-size 100%
+.word-float-anime
+  font-family Sassoon
+  width 100%
+  height 238px
+  line-height 238px
+  text-align center
+  font-size 280px
+  font-weight bold
+  color #fbac2e
+  // -webkit-text-fill-color #fbac2e
+  // text-fill-color #fbac2e
+  // -webkit-text-stroke 2px white
+  // text-stroke 2px white
+  text-shadow 0 0 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0 0 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0 0 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff,
+  0 0 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0 0 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0 0 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff,
+  0 0 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0 0 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0 0 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff
+  position absolute
+  z-index 99
+  top 0
+  right 0
+  left 0
+  bottom 0
+  margin auto
+.float-flowers
+  position absolute
+  top 0
+  width 100%
+  height 100%
+  z-index 100

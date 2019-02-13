@@ -1,0 +1,145 @@
+@require './mixins.styl'
+//teamRanking
+#rankBox{
+  height: 100vh;
+  background: url('../images/zongbangBg.png') no-repeat;
+  background-size: cover;
+  position relative;
+  overflow hidden
+  display: flex;
+  justify-content: center;
+}
+#rankBox  .words-switch-count-down .el-progress-bar{
+    border: 0px;
+  }
+#rankBox  .el-progress-bar__outer{
+    background-color transparent
+  }
+#rankBox .bgObj{
+  width 100%
+  height 100vh
+  position absolute
+}
+#rankBox embed{
+  width: 100%;
+  height: 100%;
+}
+#rankBox  .rankList{
+    position absolute
+    width: 1400px;
+    margin-left: 70px;
+    top: 260px;
+  }
+#rankBox .rankList li{
+ padding-bottom  10px;
+  position relative
+}
+#rankBox  .rankLeft,.rankRight{
+    float left;
+    width:50%;
+  }
+#rankBox    .rankList span img{
+      width 80px;
+      height:80px;
+    }
+#rankBox      .useBox{
+        display inline-block;
+        position relative;
+        z-index 9
+      }
+#rankBox      .imgName{
+        background: url('../images/rank-name-back-big.png') no-repeat;
+        width 150px;
+        background-size: cover;
+        height: 50px;
+        position: absolute;
+        bottom: -15px;
+        left: -30px;
+        line-height 50px;
+        text-align center;
+        color:white;
+        font-size 25px;
+      }
+#rankBox        .rankList .words-switch-count-down{
+          display inline-block
+          width: 500px;
+          margin 0;
+          bottom 25px;
+          //left: -20px;
+        }
+#rankBox          .el-progress-bar__inner{
+            -webkit-animation all .5s ease;
+            -ms-animation all .5s ease;
+            -o-animation all .5s ease;
+            animation all .5s ease;
+            border-radius 10px
+          }
+
+#rankBox .rankList .words-switch-count-down .el-progress-bar .el-progress-bar__innerText{
+  background: url('../images/rank-star.png') no-repeat;
+  position: absolute;
+  background-size: cover;
+  width 110px
+  height 110px;
+  top: -25px;
+  z-index 10;
+}
+#rankBox .rankList .words-switch-count-down {
+  left 15px
+}
+#rankBox .starNumber{
+  position: absolute;
+  z-index 10;
+  color:white
+  z-index 10;
+  top: -70px;
+  font-size: 35px;
+  margin-left -40px
+}
+#rankBox .starNumber.active{
+  margin-left -25px
+}
+#rankBox .starNumber.xiao{
+  margin-left -60px
+}
+#rankBox .allRankImg{
+  width 194px
+  height 191px
+  border-radius 194px
+}
+#rankBox  .elBox{
+    position relative;
+    margin-left :-20px;
+    display: inline-block;
+    width 450px
+}
+#rankBox  .act1{
+  margin-left:-20px
+}
+#rankBox  .act2{
+  margin-left:-19px
+}
+#rankBox  .act3{
+  margin-left:-17px
+}
+#rankBox  .act4{
+  margin-left:-15px
+}
+#rankBox  .act5{
+  margin-left:-7px
+}
+#rankBox  .act6{
+  margin-left:-5px
+}
+#rankBox  .act7{
+  margin-left:-3px
+}
+#rankBox  .act8{
+  margin-left:7px
+}
+#rankBox  .act9{
+  margin-left:10px
+}
+#rankBox  .act10{
+  margin-left:15px
+}

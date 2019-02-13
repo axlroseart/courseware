@@ -1,0 +1,74 @@
+.gka-wrap {
+    width: 260px;
+    height: 200px;
+}
+
+.oneStar {
+    background-image: url("./img/one0004.png");
+    background-repeat: no-repeat;
+    animation-name: keyframes-选取;
+    animation-duration: 1.56s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+}
+
+@keyframes keyframes-选取 {
+    0% {
+        background-image: url("./img/one0004.png");
+    }
+
+    7.14% {
+        background-image: url("./img/one0006.png");
+    }
+
+    14.29% {
+        background-image: url("./img/one0008.png");
+    }
+
+    21.43% {
+        background-image: url("./img/one0010.png");
+    }
+
+    28.57% {
+        background-image: url("./img/one0012.png");
+    }
+
+    35.71% {
+        background-image: url("./img/one0014.png");
+    }
+
+    42.86% {
+        background-image: url("./img/one0016.png");
+    }
+
+    50.00% {
+        background-image: url("./img/one0018.png");
+    }
+
+    57.14% {
+        background-image: url("./img/one0020.png");
+    }
+
+    64.29% {
+        background-image: url("./img/one0022.png");
+    }
+
+    71.43% {
+        background-image: url("./img/one0024.png");
+    }
+
+    78.57% {
+        background-image: url("./img/one0026.png");
+    }
+
+    85.71% {
+        background-image: url("./img/one0028.png");
+    }
+
+    92.86%,
+    100% {
+        background-image: url("./img/one0030.png");
+    }
+}

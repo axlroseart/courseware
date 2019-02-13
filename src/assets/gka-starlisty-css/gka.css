@@ -1,0 +1,521 @@
+.animation-rank-leap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99;
+    background-image: url("./img/starlist_0.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation-name: keyframes-starlisty;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+}
+
+@keyframes keyframes-starlisty {
+    0% {
+        width: 100%;
+        height: 100%;
+        background-image: url("./img/starlist_0.png");
+        background-size: 100%;
+    }
+
+    0.80% {
+        background-image: url("./img/starlist_1.png");
+    }
+
+    1.60% {
+        background-image: url("./img/starlist_2.png");
+    }
+
+    2.40% {
+        background-image: url("./img/starlist_3.png");
+    }
+
+    3.20% {
+        background-image: url("./img/starlist_4.png");
+    }
+
+    4.00% {
+        background-image: url("./img/starlist_5.png");
+    }
+
+    4.80% {
+        background-image: url("./img/starlist_6.png");
+    }
+
+    5.60% {
+        background-image: url("./img/starlist_7.png");
+    }
+
+    6.40% {
+        background-image: url("./img/starlist_8.png");
+    }
+
+    7.20% {
+        background-image: url("./img/starlist_9.png");
+    }
+
+    8.00% {
+        background-image: url("./img/starlist_10.png");
+    }
+
+    8.80% {
+        background-image: url("./img/starlist_11.png");
+    }
+
+    9.60% {
+        background-image: url("./img/starlist_12.png");
+    }
+
+    10.40% {
+        background-image: url("./img/starlist_13.png");
+    }
+
+    11.20% {
+        background-image: url("./img/starlist_14.png");
+    }
+
+    12.00% {
+        background-image: url("./img/starlist_15.png");
+    }
+
+    12.80% {
+        background-image: url("./img/starlist_16.png");
+    }
+
+    13.60% {
+        background-image: url("./img/starlist_17.png");
+    }
+
+    14.40% {
+        background-image: url("./img/starlist_18.png");
+    }
+
+    15.20% {
+        background-image: url("./img/starlist_19.png");
+    }
+
+    16.00% {
+        background-image: url("./img/starlist_20.png");
+    }
+
+    16.80% {
+        background-image: url("./img/starlist_21.png");
+    }
+
+    17.60% {
+        background-image: url("./img/starlist_22.png");
+    }
+
+    18.40% {
+        background-image: url("./img/starlist_23.png");
+    }
+
+    19.20% {
+        background-image: url("./img/starlist_24.png");
+    }
+
+    20.00% {
+        background-image: url("./img/starlist_25.png");
+    }
+
+    20.80% {
+        background-image: url("./img/starlist_26.png");
+    }
+
+    21.60% {
+        background-image: url("./img/starlist_27.png");
+    }
+
+    22.40% {
+        background-image: url("./img/starlist_28.png");
+    }
+
+    23.20% {
+        background-image: url("./img/starlist_29.png");
+    }
+
+    24.00% {
+        background-image: url("./img/starlist_30.png");
+    }
+
+    24.80% {
+        background-image: url("./img/starlist_31.png");
+    }
+
+    25.60% {
+        background-image: url("./img/starlist_32.png");
+    }
+
+    26.40% {
+        background-image: url("./img/starlist_33.png");
+    }
+
+    27.20% {
+        background-image: url("./img/starlist_34.png");
+    }
+
+    28.00% {
+        background-image: url("./img/starlist_35.png");
+    }
+
+    28.80% {
+        background-image: url("./img/starlist_36.png");
+    }
+
+    29.60% {
+        background-image: url("./img/starlist_37.png");
+    }
+
+    30.40% {
+        background-image: url("./img/starlist_38.png");
+    }
+
+    31.20% {
+        background-image: url("./img/starlist_39.png");
+    }
+
+    32.00% {
+        background-image: url("./img/starlist_40.png");
+    }
+
+    32.80% {
+        background-image: url("./img/starlist_41.png");
+    }
+
+    33.60% {
+        background-image: url("./img/starlist_42.png");
+    }
+
+    34.40% {
+        background-image: url("./img/starlist_43.png");
+    }
+
+    35.20% {
+        background-image: url("./img/starlist_44.png");
+    }
+
+    36.00% {
+        background-image: url("./img/starlist_45.png");
+    }
+
+    36.80% {
+        background-image: url("./img/starlist_46.png");
+    }
+
+    37.60% {
+        background-image: url("./img/starlist_47.png");
+    }
+
+    38.40% {
+        background-image: url("./img/starlist_48.png");
+    }
+
+    39.20% {
+        background-image: url("./img/starlist_49.png");
+    }
+
+    40.00% {
+        background-image: url("./img/starlist_50.png");
+    }
+
+    40.80% {
+        background-image: url("./img/starlist_51.png");
+    }
+
+    41.60% {
+        background-image: url("./img/starlist_52.png");
+    }
+
+    42.40% {
+        background-image: url("./img/starlist_53.png");
+    }
+
+    43.20% {
+        background-image: url("./img/starlist_54.png");
+    }
+
+    44.00% {
+        background-image: url("./img/starlist_55.png");
+    }
+
+    44.80% {
+        background-image: url("./img/starlist_56.png");
+    }
+
+    45.60% {
+        background-image: url("./img/starlist_57.png");
+    }
+
+    46.40% {
+        background-image: url("./img/starlist_58.png");
+    }
+
+    47.20% {
+        background-image: url("./img/starlist_59.png");
+    }
+
+    48.00% {
+        background-image: url("./img/starlist_60.png");
+    }
+
+    48.80% {
+        background-image: url("./img/starlist_61.png");
+    }
+
+    49.60% {
+        background-image: url("./img/starlist_62.png");
+    }
+
+    50.40% {
+        background-image: url("./img/starlist_63.png");
+    }
+
+    51.20% {
+        background-image: url("./img/starlist_64.png");
+    }
+
+    52.00% {
+        background-image: url("./img/starlist_65.png");
+    }
+
+    52.80% {
+        background-image: url("./img/starlist_66.png");
+    }
+
+    53.60% {
+        background-image: url("./img/starlist_67.png");
+    }
+
+    54.40% {
+        background-image: url("./img/starlist_68.png");
+    }
+
+    55.20% {
+        background-image: url("./img/starlist_69.png");
+    }
+
+    56.00% {
+        background-image: url("./img/starlist_70.png");
+    }
+
+    56.80% {
+        background-image: url("./img/starlist_71.png");
+    }
+
+    57.60% {
+        background-image: url("./img/starlist_72.png");
+    }
+
+    58.40% {
+        background-image: url("./img/starlist_73.png");
+    }
+
+    59.20% {
+        background-image: url("./img/starlist_74.png");
+    }
+
+    60.00% {
+        background-image: url("./img/starlist_75.png");
+    }
+
+    60.80% {
+        background-image: url("./img/starlist_76.png");
+    }
+
+    61.60% {
+        background-image: url("./img/starlist_77.png");
+    }
+
+    62.40% {
+        background-image: url("./img/starlist_78.png");
+    }
+
+    63.20% {
+        background-image: url("./img/starlist_79.png");
+    }
+
+    64.00% {
+        background-image: url("./img/starlist_80.png");
+    }
+
+    64.80% {
+        background-image: url("./img/starlist_81.png");
+    }
+
+    65.60% {
+        background-image: url("./img/starlist_82.png");
+    }
+
+    66.40% {
+        background-image: url("./img/starlist_83.png");
+    }
+
+    67.20% {
+        background-image: url("./img/starlist_84.png");
+    }
+
+    68.00% {
+        background-image: url("./img/starlist_85.png");
+    }
+
+    68.80% {
+        background-image: url("./img/starlist_86.png");
+    }
+
+    69.60% {
+        background-image: url("./img/starlist_87.png");
+    }
+
+    70.40% {
+        background-image: url("./img/starlist_88.png");
+    }
+
+    71.20% {
+        background-image: url("./img/starlist_89.png");
+    }
+
+    72.00% {
+        background-image: url("./img/starlist_90.png");
+    }
+
+    72.80% {
+        background-image: url("./img/starlist_91.png");
+    }
+
+    73.60% {
+        background-image: url("./img/starlist_92.png");
+    }
+
+    74.40% {
+        background-image: url("./img/starlist_93.png");
+    }
+
+    75.20% {
+        background-image: url("./img/starlist_94.png");
+    }
+
+    76.00% {
+        background-image: url("./img/starlist_95.png");
+    }
+
+    76.80% {
+        background-image: url("./img/starlist_96.png");
+    }
+
+    77.60% {
+        background-image: url("./img/starlist_97.png");
+    }
+
+    78.40% {
+        background-image: url("./img/starlist_98.png");
+    }
+
+    79.20% {
+        background-image: url("./img/starlist_99.png");
+    }
+
+    80.00% {
+        background-image: url("./img/starlist_100.png");
+    }
+
+    80.80% {
+        background-image: url("./img/starlist_101.png");
+    }
+
+    81.60% {
+        background-image: url("./img/starlist_102.png");
+    }
+
+    82.40% {
+        background-image: url("./img/starlist_103.png");
+    }
+
+    83.20% {
+        background-image: url("./img/starlist_104.png");
+    }
+
+    84.00% {
+        background-image: url("./img/starlist_105.png");
+    }
+
+    84.80% {
+        background-image: url("./img/starlist_106.png");
+    }
+
+    85.60% {
+        background-image: url("./img/starlist_107.png");
+    }
+
+    86.40% {
+        background-image: url("./img/starlist_108.png");
+    }
+
+    87.20% {
+        background-image: url("./img/starlist_109.png");
+    }
+
+    88.00% {
+        background-image: url("./img/starlist_110.png");
+    }
+
+    88.80% {
+        background-image: url("./img/starlist_111.png");
+    }
+
+    89.60% {
+        background-image: url("./img/starlist_112.png");
+    }
+
+    90.40% {
+        background-image: url("./img/starlist_113.png");
+    }
+
+    91.20% {
+        background-image: url("./img/starlist_114.png");
+    }
+
+    92.00% {
+        background-image: url("./img/starlist_115.png");
+    }
+
+    92.80% {
+        background-image: url("./img/starlist_116.png");
+    }
+
+    93.60% {
+        background-image: url("./img/starlist_117.png");
+    }
+
+    94.40% {
+        background-image: url("./img/starlist_118.png");
+    }
+
+    95.20% {
+        background-image: url("./img/starlist_119.png");
+    }
+
+    96.00% {
+        background-image: url("./img/starlist_120.png");
+    }
+
+    96.80% {
+        background-image: url("./img/starlist_121.png");
+    }
+
+    97.60% {
+        background-image: url("./img/starlist_122.png");
+    }
+
+    98.40% {
+        background-image: url("./img/starlist_123.png");
+    }
+
+    99.20%,
+    100% {
+        background-image: url("./img/starlist_124.png");
+    }
+}

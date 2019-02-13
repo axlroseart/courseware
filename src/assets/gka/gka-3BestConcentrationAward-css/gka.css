@@ -1,0 +1,219 @@
+.gka-wrap {
+    width: 1920px;
+    height: 1080px;
+}
+
+.gka3BestConcentrationAward {
+    background-image: url("./img/Leap02jpg_100.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-name: keyframes-3BestConcentrationAward;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+}
+
+@keyframes keyframes-3BestConcentrationAward {
+    0% {
+        background-image: url("./img/Leap02jpg_100.jpg");
+    }
+
+    2.00% {
+        background-image: url("./img/Leap02jpg_101.jpg");
+    }
+
+    4.00% {
+        background-image: url("./img/Leap02jpg_102.jpg");
+    }
+
+    6.00% {
+        background-image: url("./img/Leap02jpg_103.jpg");
+    }
+
+    8.00% {
+        background-image: url("./img/Leap02jpg_104.jpg");
+    }
+
+    10.00% {
+        background-image: url("./img/Leap02jpg_105.jpg");
+    }
+
+    12.00% {
+        background-image: url("./img/Leap02jpg_106.jpg");
+    }
+
+    14.00% {
+        background-image: url("./img/Leap02jpg_107.jpg");
+    }
+
+    16.00% {
+        background-image: url("./img/Leap02jpg_108.jpg");
+    }
+
+    18.00% {
+        background-image: url("./img/Leap02jpg_109.jpg");
+    }
+
+    20.00% {
+        background-image: url("./img/Leap02jpg_110.jpg");
+    }
+
+    22.00% {
+        background-image: url("./img/Leap02jpg_111.jpg");
+    }
+
+    24.00% {
+        background-image: url("./img/Leap02jpg_112.jpg");
+    }
+
+    26.00% {
+        background-image: url("./img/Leap02jpg_113.jpg");
+    }
+
+    28.00% {
+        background-image: url("./img/Leap02jpg_114.jpg");
+    }
+
+    30.00% {
+        background-image: url("./img/Leap02jpg_115.jpg");
+    }
+
+    32.00% {
+        background-image: url("./img/Leap02jpg_116.jpg");
+    }
+
+    34.00% {
+        background-image: url("./img/Leap02jpg_117.jpg");
+    }
+
+    36.00% {
+        background-image: url("./img/Leap02jpg_118.jpg");
+    }
+
+    38.00% {
+        background-image: url("./img/Leap02jpg_119.jpg");
+    }
+
+    40.00% {
+        background-image: url("./img/Leap02jpg_120.jpg");
+    }
+
+    42.00% {
+        background-image: url("./img/Leap02jpg_121.jpg");
+    }
+
+    44.00% {
+        background-image: url("./img/Leap02jpg_122.jpg");
+    }
+
+    46.00% {
+        background-image: url("./img/Leap02jpg_123.jpg");
+    }
+
+    48.00% {
+        background-image: url("./img/Leap02jpg_124.jpg");
+    }
+
+    50.00% {
+        background-image: url("./img/Leap02jpg_125.jpg");
+    }
+
+    52.00% {
+        background-image: url("./img/Leap02jpg_126.jpg");
+    }
+
+    54.00% {
+        background-image: url("./img/Leap02jpg_127.jpg");
+    }
+
+    56.00% {
+        background-image: url("./img/Leap02jpg_128.jpg");
+    }
+
+    58.00% {
+        background-image: url("./img/Leap02jpg_129.jpg");
+    }
+
+    60.00% {
+        background-image: url("./img/Leap02jpg_130.jpg");
+    }
+
+    62.00% {
+        background-image: url("./img/Leap02jpg_131.jpg");
+    }
+
+    64.00% {
+        background-image: url("./img/Leap02jpg_132.jpg");
+    }
+
+    66.00% {
+        background-image: url("./img/Leap02jpg_133.jpg");
+    }
+
+    68.00% {
+        background-image: url("./img/Leap02jpg_134.jpg");
+    }
+
+    70.00% {
+        background-image: url("./img/Leap02jpg_135.jpg");
+    }
+
+    72.00% {
+        background-image: url("./img/Leap02jpg_136.jpg");
+    }
+
+    74.00% {
+        background-image: url("./img/Leap02jpg_137.jpg");
+    }
+
+    76.00% {
+        background-image: url("./img/Leap02jpg_138.jpg");
+    }
+
+    78.00% {
+        background-image: url("./img/Leap02jpg_139.jpg");
+    }
+
+    80.00% {
+        background-image: url("./img/Leap02jpg_140.jpg");
+    }
+
+    82.00% {
+        background-image: url("./img/Leap02jpg_141.jpg");
+    }
+
+    84.00% {
+        background-image: url("./img/Leap02jpg_142.jpg");
+    }
+
+    86.00% {
+        background-image: url("./img/Leap02jpg_143.jpg");
+    }
+
+    88.00% {
+        background-image: url("./img/Leap02jpg_144.jpg");
+    }
+
+    90.00% {
+        background-image: url("./img/Leap02jpg_145.jpg");
+    }
+
+    92.00% {
+        background-image: url("./img/Leap02jpg_146.jpg");
+    }
+
+    94.00% {
+        background-image: url("./img/Leap02jpg_147.jpg");
+    }
+
+    96.00% {
+        background-image: url("./img/Leap02jpg_148.jpg");
+    }
+
+    98.00%,
+    100% {
+        background-image: url("./img/Leap02jpg_149.jpg");
+    }
+}

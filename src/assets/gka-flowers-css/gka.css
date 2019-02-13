@@ -1,0 +1,35 @@
+.animation-flowers {
+    width: 10rem;
+    height: 5.625rem;
+    background-image: url("./img/1.png");
+    background-size: 10rem 5.625rem;
+    background-repeat: no-repeat;
+    animation-name: keyframes-celebrate_flower;
+    animation-duration: 0.6s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+}
+
+@keyframes keyframes-celebrate_flower {
+    0% {
+        width: 10rem;
+        height: 5.625rem;
+        background-image: url("./img/1.png");
+        background-size: 10rem 5.625rem;
+    }
+
+    25.00% {
+        background-image: url("./img/2.png");
+    }
+
+    50.00% {
+        background-image: url("./img/3.png");
+    }
+
+    75.00%,
+    100% {
+        background-image: url("./img/4.png");
+    }
+}

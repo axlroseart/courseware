@@ -1,0 +1,143 @@
+.gka-wrap {
+    width: 1920px;
+    height: 1080px;
+}
+
+.awardStarXu {
+    background-image: url("./img/3stars00.png");
+    background-repeat: no-repeat;
+    animation-name: keyframes-3颗星星;
+    animation-duration: 1.24s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+    background-size: contain;
+}
+
+@keyframes keyframes-3颗星星 {
+    0% {
+        background-image: url("./img/3stars00.png");
+    }
+
+    3.23% {
+        background-image: url("./img/3stars01.png");
+    }
+
+    6.45% {
+        background-image: url("./img/3stars02.png");
+    }
+
+    9.68% {
+        background-image: url("./img/3stars03.png");
+    }
+
+    12.90% {
+        background-image: url("./img/3stars04.png");
+    }
+
+    16.13% {
+        background-image: url("./img/3stars05.png");
+    }
+
+    19.35% {
+        background-image: url("./img/3stars06.png");
+    }
+
+    22.58% {
+        background-image: url("./img/3stars07.png");
+    }
+
+    25.81% {
+        background-image: url("./img/3stars08.png");
+    }
+
+    29.03% {
+        background-image: url("./img/3stars09.png");
+    }
+
+    32.26% {
+        background-image: url("./img/3stars10.png");
+    }
+
+    35.48% {
+        background-image: url("./img/3stars11.png");
+    }
+
+    38.71% {
+        background-image: url("./img/3stars12.png");
+    }
+
+    41.94% {
+        background-image: url("./img/3stars13.png");
+    }
+
+    45.16% {
+        background-image: url("./img/3stars14.png");
+    }
+
+    48.39% {
+        background-image: url("./img/3stars15.png");
+    }
+
+    51.61% {
+        background-image: url("./img/3stars16.png");
+    }
+
+    54.84% {
+        background-image: url("./img/3stars17.png");
+    }
+
+    58.06% {
+        background-image: url("./img/3stars18.png");
+    }
+
+    61.29% {
+        background-image: url("./img/3stars19.png");
+    }
+
+    64.52% {
+        background-image: url("./img/3stars20.png");
+    }
+
+    67.74% {
+        background-image: url("./img/3stars21.png");
+    }
+
+    70.97% {
+        background-image: url("./img/3stars22.png");
+    }
+
+    74.19% {
+        background-image: url("./img/3stars23.png");
+    }
+
+    77.42% {
+        background-image: url("./img/3stars24.png");
+    }
+
+    80.65% {
+        background-image: url("./img/3stars25.png");
+    }
+
+    83.87% {
+        background-image: url("./img/3stars26.png");
+    }
+
+    87.10% {
+        background-image: url("./img/3stars27.png");
+    }
+
+    90.32% {
+        background-image: url("./img/3stars28.png");
+    }
+
+    93.55% {
+        background-image: url("./img/3stars29.png");
+    }
+
+    96.77%,
+    100% {
+        background-image: url("./img/3stars30.png");
+    }
+}

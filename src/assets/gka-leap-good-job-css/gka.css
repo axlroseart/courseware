@@ -1,0 +1,135 @@
+.animation-good-job {
+    width: 3.041666666666667rem;
+    height: 2.875rem;
+    background-image: url("./img/leap-good-job-224.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation-name: keyframes-leap-good-job;
+    animation-duration: 1.16s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+}
+
+@keyframes keyframes-leap-good-job {
+    0% {
+        width: 3.041666666666667rem;
+        height: 2.875rem;
+        background-image: url("./img/leap-good-job-224.png");
+        background-size: 100%;
+    }
+
+    3.45% {
+        background-image: url("./img/leap-good-job-225.png");
+    }
+
+    6.90% {
+        background-image: url("./img/leap-good-job-226.png");
+    }
+
+    10.34% {
+        background-image: url("./img/leap-good-job-227.png");
+    }
+
+    13.79% {
+        background-image: url("./img/leap-good-job-228.png");
+    }
+
+    17.24% {
+        background-image: url("./img/leap-good-job-229.png");
+    }
+
+    20.69% {
+        background-image: url("./img/leap-good-job-230.png");
+    }
+
+    24.14% {
+        background-image: url("./img/leap-good-job-231.png");
+    }
+
+    27.59% {
+        background-image: url("./img/leap-good-job-232.png");
+    }
+
+    31.03% {
+        background-image: url("./img/leap-good-job-233.png");
+    }
+
+    34.48% {
+        background-image: url("./img/leap-good-job-234.png");
+    }
+
+    37.93% {
+        background-image: url("./img/leap-good-job-235.png");
+    }
+
+    41.38% {
+        background-image: url("./img/leap-good-job-236.png");
+    }
+
+    44.83% {
+        background-image: url("./img/leap-good-job-237.png");
+    }
+
+    48.28% {
+        background-image: url("./img/leap-good-job-238.png");
+    }
+
+    51.72% {
+        background-image: url("./img/leap-good-job-239.png");
+    }
+
+    55.17% {
+        background-image: url("./img/leap-good-job-240.png");
+    }
+
+    58.62% {
+        background-image: url("./img/leap-good-job-241.png");
+    }
+
+    62.07% {
+        background-image: url("./img/leap-good-job-242.png");
+    }
+
+    65.52% {
+        background-image: url("./img/leap-good-job-243.png");
+    }
+
+    68.97% {
+        background-image: url("./img/leap-good-job-244.png");
+    }
+
+    72.41% {
+        background-image: url("./img/leap-good-job-245.png");
+    }
+
+    75.86% {
+        background-image: url("./img/leap-good-job-246.png");
+    }
+
+    79.31% {
+        background-image: url("./img/leap-good-job-247.png");
+    }
+
+    82.76% {
+        background-image: url("./img/leap-good-job-248.png");
+    }
+
+    86.21% {
+        background-image: url("./img/leap-good-job-249.png");
+    }
+
+    89.66% {
+        background-image: url("./img/leap-good-job-250.png");
+    }
+
+    93.10% {
+        background-image: url("./img/leap-good-job-251.png");
+    }
+
+    96.55%,
+    100% {
+        background-image: url("./img/leap-good-job-252.png");
+    }
+}

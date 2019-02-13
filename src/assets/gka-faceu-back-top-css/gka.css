@@ -1,0 +1,219 @@
+.animation-faceu-back-top {
+    width: 10rem;
+    height: 2rem;
+    background-image: url("./img/faceu-back-top-0.png");
+    background-size: 10rem 2rem;
+    background-repeat: no-repeat;
+    animation-name: keyframes-faceu-back-top;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+}
+
+@keyframes keyframes-faceu-back-top {
+    0% {
+        width: 10rem;
+        height: 2rem;
+        background-image: url("./img/faceu-back-top-0.png");
+        background-size: 10rem 2rem;
+    }
+
+    2.00% {
+        background-image: url("./img/faceu-back-top-1.png");
+    }
+
+    4.00% {
+        background-image: url("./img/faceu-back-top-2.png");
+    }
+
+    6.00% {
+        background-image: url("./img/faceu-back-top-3.png");
+    }
+
+    8.00% {
+        background-image: url("./img/faceu-back-top-4.png");
+    }
+
+    10.00% {
+        background-image: url("./img/faceu-back-top-5.png");
+    }
+
+    12.00% {
+        background-image: url("./img/faceu-back-top-6.png");
+    }
+
+    14.00% {
+        background-image: url("./img/faceu-back-top-7.png");
+    }
+
+    16.00% {
+        background-image: url("./img/faceu-back-top-8.png");
+    }
+
+    18.00% {
+        background-image: url("./img/faceu-back-top-9.png");
+    }
+
+    20.00% {
+        background-image: url("./img/faceu-back-top-10.png");
+    }
+
+    22.00% {
+        background-image: url("./img/faceu-back-top-11.png");
+    }
+
+    24.00% {
+        background-image: url("./img/faceu-back-top-12.png");
+    }
+
+    26.00% {
+        background-image: url("./img/faceu-back-top-13.png");
+    }
+
+    28.00% {
+        background-image: url("./img/faceu-back-top-14.png");
+    }
+
+    30.00% {
+        background-image: url("./img/faceu-back-top-15.png");
+    }
+
+    32.00% {
+        background-image: url("./img/faceu-back-top-16.png");
+    }
+
+    34.00% {
+        background-image: url("./img/faceu-back-top-17.png");
+    }
+
+    36.00% {
+        background-image: url("./img/faceu-back-top-18.png");
+    }
+
+    38.00% {
+        background-image: url("./img/faceu-back-top-19.png");
+    }
+
+    40.00% {
+        background-image: url("./img/faceu-back-top-20.png");
+    }
+
+    42.00% {
+        background-image: url("./img/faceu-back-top-21.png");
+    }
+
+    44.00% {
+        background-image: url("./img/faceu-back-top-22.png");
+    }
+
+    46.00% {
+        background-image: url("./img/faceu-back-top-23.png");
+    }
+
+    48.00% {
+        background-image: url("./img/faceu-back-top-24.png");
+    }
+
+    50.00% {
+        background-image: url("./img/faceu-back-top-25.png");
+    }
+
+    52.00% {
+        background-image: url("./img/faceu-back-top-26.png");
+    }
+
+    54.00% {
+        background-image: url("./img/faceu-back-top-27.png");
+    }
+
+    56.00% {
+        background-image: url("./img/faceu-back-top-28.png");
+    }
+
+    58.00% {
+        background-image: url("./img/faceu-back-top-29.png");
+    }
+
+    60.00% {
+        background-image: url("./img/faceu-back-top-30.png");
+    }
+
+    62.00% {
+        background-image: url("./img/faceu-back-top-31.png");
+    }
+
+    64.00% {
+        background-image: url("./img/faceu-back-top-32.png");
+    }
+
+    66.00% {
+        background-image: url("./img/faceu-back-top-33.png");
+    }
+
+    68.00% {
+        background-image: url("./img/faceu-back-top-34.png");
+    }
+
+    70.00% {
+        background-image: url("./img/faceu-back-top-35.png");
+    }
+
+    72.00% {
+        background-image: url("./img/faceu-back-top-36.png");
+    }
+
+    74.00% {
+        background-image: url("./img/faceu-back-top-37.png");
+    }
+
+    76.00% {
+        background-image: url("./img/faceu-back-top-38.png");
+    }
+
+    78.00% {
+        background-image: url("./img/faceu-back-top-39.png");
+    }
+
+    80.00% {
+        background-image: url("./img/faceu-back-top-40.png");
+    }
+
+    82.00% {
+        background-image: url("./img/faceu-back-top-41.png");
+    }
+
+    84.00% {
+        background-image: url("./img/faceu-back-top-42.png");
+    }
+
+    86.00% {
+        background-image: url("./img/faceu-back-top-43.png");
+    }
+
+    88.00% {
+        background-image: url("./img/faceu-back-top-44.png");
+    }
+
+    90.00% {
+        background-image: url("./img/faceu-back-top-45.png");
+    }
+
+    92.00% {
+        background-image: url("./img/faceu-back-top-46.png");
+    }
+
+    94.00% {
+        background-image: url("./img/faceu-back-top-47.png");
+    }
+
+    96.00% {
+        background-image: url("./img/faceu-back-top-48.png");
+    }
+
+    98.00%,
+    100% {
+        background-image: url("./img/faceu-back-top-49.png");
+    }
+}

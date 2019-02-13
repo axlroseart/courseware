@@ -1,0 +1,415 @@
+.animation-leap-speak {
+    width: 3.041666666666667rem;
+    height: 2.875rem;
+    background-image: url("./img/leap-speak-15.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation-name: keyframes-leap-speak;
+    animation-duration: 3.96s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+}
+
+@keyframes keyframes-leap-speak {
+    0% {
+        width: 3.041666666666667rem;
+        height: 2.875rem;
+        background-image: url("./img/leap-speak-15.png");
+        background-size: 100%;
+    }
+
+    1.01% {
+        background-image: url("./img/leap-speak-16.png");
+    }
+
+    2.02% {
+        background-image: url("./img/leap-speak-17.png");
+    }
+
+    3.03% {
+        background-image: url("./img/leap-speak-18.png");
+    }
+
+    4.04% {
+        background-image: url("./img/leap-speak-19.png");
+    }
+
+    5.05% {
+        background-image: url("./img/leap-speak-20.png");
+    }
+
+    6.06% {
+        background-image: url("./img/leap-speak-21.png");
+    }
+
+    7.07% {
+        background-image: url("./img/leap-speak-22.png");
+    }
+
+    8.08% {
+        background-image: url("./img/leap-speak-23.png");
+    }
+
+    9.09% {
+        background-image: url("./img/leap-speak-24.png");
+    }
+
+    10.10% {
+        background-image: url("./img/leap-speak-25.png");
+    }
+
+    11.11% {
+        background-image: url("./img/leap-speak-26.png");
+    }
+
+    12.12% {
+        background-image: url("./img/leap-speak-27.png");
+    }
+
+    13.13% {
+        background-image: url("./img/leap-speak-28.png");
+    }
+
+    14.14% {
+        background-image: url("./img/leap-speak-29.png");
+    }
+
+    15.15% {
+        background-image: url("./img/leap-speak-30.png");
+    }
+
+    16.16% {
+        background-image: url("./img/leap-speak-31.png");
+    }
+
+    17.17% {
+        background-image: url("./img/leap-speak-32.png");
+    }
+
+    18.18% {
+        background-image: url("./img/leap-speak-33.png");
+    }
+
+    19.19% {
+        background-image: url("./img/leap-speak-34.png");
+    }
+
+    20.20% {
+        background-image: url("./img/leap-speak-35.png");
+    }
+
+    21.21% {
+        background-image: url("./img/leap-speak-36.png");
+    }
+
+    22.22% {
+        background-image: url("./img/leap-speak-37.png");
+    }
+
+    23.23% {
+        background-image: url("./img/leap-speak-38.png");
+    }
+
+    24.24% {
+        background-image: url("./img/leap-speak-39.png");
+    }
+
+    25.25% {
+        background-image: url("./img/leap-speak-40.png");
+    }
+
+    26.26% {
+        background-image: url("./img/leap-speak-41.png");
+    }
+
+    27.27% {
+        background-image: url("./img/leap-speak-42.png");
+    }
+
+    28.28% {
+        background-image: url("./img/leap-speak-43.png");
+    }
+
+    29.29% {
+        background-image: url("./img/leap-speak-44.png");
+    }
+
+    30.30% {
+        background-image: url("./img/leap-speak-45.png");
+    }
+
+    31.31% {
+        background-image: url("./img/leap-speak-46.png");
+    }
+
+    32.32% {
+        background-image: url("./img/leap-speak-47.png");
+    }
+
+    33.33% {
+        background-image: url("./img/leap-speak-48.png");
+    }
+
+    34.34% {
+        background-image: url("./img/leap-speak-49.png");
+    }
+
+    35.35% {
+        background-image: url("./img/leap-speak-50.png");
+    }
+
+    36.36% {
+        background-image: url("./img/leap-speak-51.png");
+    }
+
+    37.37% {
+        background-image: url("./img/leap-speak-52.png");
+    }
+
+    38.38% {
+        background-image: url("./img/leap-speak-53.png");
+    }
+
+    39.39% {
+        background-image: url("./img/leap-speak-54.png");
+    }
+
+    40.40% {
+        background-image: url("./img/leap-speak-55.png");
+    }
+
+    41.41% {
+        background-image: url("./img/leap-speak-56.png");
+    }
+
+    42.42% {
+        background-image: url("./img/leap-speak-57.png");
+    }
+
+    43.43% {
+        background-image: url("./img/leap-speak-58.png");
+    }
+
+    44.44% {
+        background-image: url("./img/leap-speak-59.png");
+    }
+
+    45.45% {
+        background-image: url("./img/leap-speak-60.png");
+    }
+
+    46.46% {
+        background-image: url("./img/leap-speak-61.png");
+    }
+
+    47.47% {
+        background-image: url("./img/leap-speak-62.png");
+    }
+
+    48.48% {
+        background-image: url("./img/leap-speak-63.png");
+    }
+
+    49.49% {
+        background-image: url("./img/leap-speak-64.png");
+    }
+
+    50.51% {
+        background-image: url("./img/leap-speak-65.png");
+    }
+
+    51.52% {
+        background-image: url("./img/leap-speak-66.png");
+    }
+
+    52.53% {
+        background-image: url("./img/leap-speak-67.png");
+    }
+
+    53.54% {
+        background-image: url("./img/leap-speak-68.png");
+    }
+
+    54.55% {
+        background-image: url("./img/leap-speak-69.png");
+    }
+
+    55.56% {
+        background-image: url("./img/leap-speak-70.png");
+    }
+
+    56.57% {
+        background-image: url("./img/leap-speak-71.png");
+    }
+
+    57.58% {
+        background-image: url("./img/leap-speak-72.png");
+    }
+
+    58.59% {
+        background-image: url("./img/leap-speak-73.png");
+    }
+
+    59.60% {
+        background-image: url("./img/leap-speak-74.png");
+    }
+
+    60.61% {
+        background-image: url("./img/leap-speak-75.png");
+    }
+
+    61.62% {
+        background-image: url("./img/leap-speak-76.png");
+    }
+
+    62.63% {
+        background-image: url("./img/leap-speak-77.png");
+    }
+
+    63.64% {
+        background-image: url("./img/leap-speak-78.png");
+    }
+
+    64.65% {
+        background-image: url("./img/leap-speak-79.png");
+    }
+
+    65.66% {
+        background-image: url("./img/leap-speak-80.png");
+    }
+
+    66.67% {
+        background-image: url("./img/leap-speak-81.png");
+    }
+
+    67.68% {
+        background-image: url("./img/leap-speak-82.png");
+    }
+
+    68.69% {
+        background-image: url("./img/leap-speak-83.png");
+    }
+
+    69.70% {
+        background-image: url("./img/leap-speak-84.png");
+    }
+
+    70.71% {
+        background-image: url("./img/leap-speak-85.png");
+    }
+
+    71.72% {
+        background-image: url("./img/leap-speak-86.png");
+    }
+
+    72.73% {
+        background-image: url("./img/leap-speak-87.png");
+    }
+
+    73.74% {
+        background-image: url("./img/leap-speak-88.png");
+    }
+
+    74.75% {
+        background-image: url("./img/leap-speak-89.png");
+    }
+
+    75.76% {
+        background-image: url("./img/leap-speak-90.png");
+    }
+
+    76.77% {
+        background-image: url("./img/leap-speak-91.png");
+    }
+
+    77.78% {
+        background-image: url("./img/leap-speak-92.png");
+    }
+
+    78.79% {
+        background-image: url("./img/leap-speak-93.png");
+    }
+
+    79.80% {
+        background-image: url("./img/leap-speak-94.png");
+    }
+
+    80.81% {
+        background-image: url("./img/leap-speak-95.png");
+    }
+
+    81.82% {
+        background-image: url("./img/leap-speak-96.png");
+    }
+
+    82.83% {
+        background-image: url("./img/leap-speak-97.png");
+    }
+
+    83.84% {
+        background-image: url("./img/leap-speak-98.png");
+    }
+
+    84.85% {
+        background-image: url("./img/leap-speak-99.png");
+    }
+
+    85.86% {
+        background-image: url("./img/leap-speak-100.png");
+    }
+
+    86.87% {
+        background-image: url("./img/leap-speak-101.png");
+    }
+
+    87.88% {
+        background-image: url("./img/leap-speak-102.png");
+    }
+
+    88.89% {
+        background-image: url("./img/leap-speak-103.png");
+    }
+
+    89.90% {
+        background-image: url("./img/leap-speak-104.png");
+    }
+
+    90.91% {
+        background-image: url("./img/leap-speak-105.png");
+    }
+
+    91.92% {
+        background-image: url("./img/leap-speak-106.png");
+    }
+
+    92.93% {
+        background-image: url("./img/leap-speak-107.png");
+    }
+
+    93.94% {
+        background-image: url("./img/leap-speak-108.png");
+    }
+
+    94.95% {
+        background-image: url("./img/leap-speak-109.png");
+    }
+
+    95.96% {
+        background-image: url("./img/leap-speak-110.png");
+    }
+
+    96.97% {
+        background-image: url("./img/leap-speak-111.png");
+    }
+
+    97.98% {
+        background-image: url("./img/leap-speak-112.png");
+    }
+
+    98.99%,
+    100% {
+        background-image: url("./img/leap-speak-113.png");
+    }
+}

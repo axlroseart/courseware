@@ -1,0 +1,74 @@
+.gka-wrap {
+    width: 260px;
+    height: 200px;
+}
+
+.threeStar {
+    background-image: url("./img/three0004.png");
+    background-repeat: no-repeat;
+    animation-name: keyframes-threeStar;
+    animation-duration: 1.56s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+}
+
+@keyframes keyframes-threeStar {
+    0% {
+        background-image: url("./img/three0004.png");
+    }
+
+    7.14% {
+        background-image: url("./img/three0006.png");
+    }
+
+    14.29% {
+        background-image: url("./img/three0008.png");
+    }
+
+    21.43% {
+        background-image: url("./img/three0010.png");
+    }
+
+    28.57% {
+        background-image: url("./img/three0012.png");
+    }
+
+    35.71% {
+        background-image: url("./img/three0014.png");
+    }
+
+    42.86% {
+        background-image: url("./img/three0016.png");
+    }
+
+    50.00% {
+        background-image: url("./img/three0018.png");
+    }
+
+    57.14% {
+        background-image: url("./img/three0020.png");
+    }
+
+    64.29% {
+        background-image: url("./img/three0022.png");
+    }
+
+    71.43% {
+        background-image: url("./img/three0024.png");
+    }
+
+    78.57% {
+        background-image: url("./img/three0026.png");
+    }
+
+    85.71% {
+        background-image: url("./img/three0028.png");
+    }
+
+    92.86%,
+    100% {
+        background-image: url("./img/three0030.png");
+    }
+}
